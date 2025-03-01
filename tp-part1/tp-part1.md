@@ -32,10 +32,3 @@ source-ports:
 icmp-blocks:
 rich rules:
 ```
-
-### ✅ Analyse des résultats
-
-- **Interfaces actives** : `enp0s3` et `enp0s8`.
-- **Services autorisés** : `cockpit`, `dhcpv6-client`, `ftp` (si cela ne correspond pas aux attentes, il faudra ajuster).
-- **Ports ouverts** : `22/tcp` est bien autorisé.
-- **Masquerade désactivé** : Aucun NAT n'est activé.  
