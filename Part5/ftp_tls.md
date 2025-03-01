@@ -1,4 +1,4 @@
-# Partie 5 : Mise en place d'un serveur FTP + TLS
+# Mise en place d'un serveur FTP + TLS
 
 ## Installation et vérification du service
 
