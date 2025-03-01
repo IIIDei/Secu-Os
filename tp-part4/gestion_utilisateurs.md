@@ -1,4 +1,4 @@
-# **Part IV : Gestion d'utilisateurs**
+# **Gestion d'utilisateurs**
 
 ## **1. Gestion d'utilisateurs**
 
