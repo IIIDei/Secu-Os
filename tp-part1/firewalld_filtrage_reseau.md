@@ -1,4 +1,4 @@
-# TP Filtrage des paquets - Partie 1
+# Filtrage des paquets
 
 ## 🔥 Configuration restrictive de firewalld
 
