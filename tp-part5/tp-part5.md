@@ -11,7 +11,7 @@ Vérification du statut du service :
 ```bash
 sudo systemctl status vsftpd
 ```
-📸 **Capture d'écran** : Résultat de la commande `sudo systemctl status vsftpd`
+![](vsftpd-status.png)
 
 ## Configuration de vsftpd
 
@@ -104,7 +104,7 @@ Connexion au serveur FTP en local :
 ```bash
 ftp localhost
 ```
-📸 **Capture d'écran** : Résultat de la commande `ftp localhost`
+![](ftp-localhost.png)
 
 ## Conclusion
 Le serveur FTP avec TLS est maintenant opérationnel. Les utilisateurs locaux peuvent accéder à leurs fichiers en toute sécurité via **FTP sécurisé**.
