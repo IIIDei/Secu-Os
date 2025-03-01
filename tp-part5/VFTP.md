@@ -81,8 +81,8 @@ sudo chmod 600 /etc/ssl/private/vsftpd.pem
 Vérification des permissions :
 ```bash
 ls -l /etc/ssl/private/vsftpd.pem
+---> -rw------- 1 root root 5305 Mar    1 12:13 /etc/ssl/private/vsftpd.pem
 ```
-📸 **Capture d'écran** : Résultat de la commande `ls -l /etc/ssl/private/vsftpd.pem`
 
 ## Configuration du pare-feu
 
@@ -95,8 +95,8 @@ sudo firewall-cmd --reload
 Vérification des ports ouverts :
 ```bash
 sudo firewall-cmd --list-ports
+---> 21/tcp 990/tcp 2222/tcp
 ```
-📸 **Optionnel** : Capture d'écran du résultat de `sudo firewall-cmd --list-ports`
 
 ## Test de connexion FTP
 
@@ -105,6 +105,3 @@ Connexion au serveur FTP en local :
 ftp localhost
 ```
 ![](ftp-localhost.png)
-
-## Conclusion
-Le serveur FTP avec TLS est maintenant opérationnel. Les utilisateurs locaux peuvent accéder à leurs fichiers en toute sécurité via **FTP sécurisé**.
