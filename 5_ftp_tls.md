@@ -11,7 +11,7 @@ Vérification du statut du service :
 ```bash
 sudo systemctl status vsftpd
 ```
-![](vsftpd-status.png)
+![](images/vsftpd-status.png)
 
 ## Configuration de vsftpd
 
@@ -104,4 +104,4 @@ Connexion au serveur FTP en local :
 ```bash
 ftp localhost
 ```
-![](ftp-localhost.png)
+![](images/ftp-localhost.png)
