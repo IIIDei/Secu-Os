@@ -1,6 +1,6 @@
 # Linux-Config
 
-# TP : Mise en place de services sous Linux  
+# Mise en place de services sous Linux  
 
 Objectif : configurer différents services sous Linux en suivant une approche sécurisée et en maîtrisant les différentes configurations.  
 
