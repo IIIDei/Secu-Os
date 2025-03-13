@@ -121,7 +121,7 @@ sudo sysdig proc.name=cat and evt.type=openat
 Résultat :
 ```bash
 cat (23133.23133) > openat dirfd=-100(AT_FDCWD) name=myfile.txt flags=1(O_RDONLY) mode=0
-cat (23133.23133) < openat fd=3(<f>/home/gaetan/myfile.txt) dirfd=-100(AT_FDCWD) name=myfile.txt flags=1(O_RDONLY) mode=0
+cat (23133.23133) < openat fd=3(<f>/home/dei/myfile.txt) dirfd=-100(AT_FDCWD) name=myfile.txt flags=1(O_RDONLY) mode=0
 ```
 
 Le *syscall* `openat` est utilisé pour ouvrir `myfile.txt`.
@@ -132,10 +132,10 @@ Le *syscall* `openat` est utilisé pour ouvrir `myfile.txt`.
 
 Commande :
 ```bash
-sudo sysdig user.name=gaetan
+sudo sysdig user.name=dei
 ```
 
-Cela affiche en temps réel tous les *syscalls* effectués par l'utilisateur `gaetan`.
+Cela affiche en temps réel tous les *syscalls* effectués par l'utilisateur `dei`.
 
 ---
 
