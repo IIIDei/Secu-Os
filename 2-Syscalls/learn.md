@@ -1,6 +1,6 @@
 # Syscalls - Part I : Learn
 
-## Introduction
+## Contexte
 Dans cette partie, nous allons explorer les concepts fondamentaux liés aux programmes et aux appels système (*syscalls*). Un programme est un fichier exécutable, qui interagit avec le système via des appels système fournis par le noyau.
 
 Nous utiliserons plusieurs outils pour analyser ces programmes et observer les *syscalls* qu'ils utilisent.
