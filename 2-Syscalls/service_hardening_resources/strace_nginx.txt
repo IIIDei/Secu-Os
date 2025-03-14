@@ -1,0 +1,1918 @@
+4034  execve("/usr/sbin/nginx", ["/usr/sbin/nginx"], 0x7ffe6d2bb398 /* 15 vars */) = 0
+4034  brk(NULL)                         = 0x557242607000
+4034  arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd568a7000) = -1 EINVAL (Invalid argument)
+4034  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4034  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+4034  fstat(3, {st_mode=S_IFREG|0644, st_size=14083, ...}) = 0
+4034  mmap(NULL, 14083, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fd508745000
+4034  close(3)                          = 0
+4034  openat(AT_FDCWD, "/lib64/libcrypt.so.2", O_RDONLY|O_CLOEXEC) = 3
+4034  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \0\0\0\0\0\0"..., 832) = 832
+4034  fstat(3, {st_mode=S_IFREG|0755, st_size=201832, ...}) = 0
+4034  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd508743000
+4034  mmap(NULL, 233728, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd508709000
+4034  mprotect(0x7fd50870b000, 188416, PROT_NONE) = 0
+4034  mmap(0x7fd50870b000, 81920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fd50870b000
+4034  mmap(0x7fd50871f000, 102400, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fd50871f000
+4034  mmap(0x7fd508739000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7fd508739000
+4034  mmap(0x7fd50873a000, 33024, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd50873a000
+4034  close(3)                          = 0
+4034  openat(AT_FDCWD, "/lib64/libpcre.so.1", O_RDONLY|O_CLOEXEC) = 3
+4034  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260#\0\0\0\0\0\0"..., 832) = 832
+4034  fstat(3, {st_mode=S_IFREG|0755, st_size=488664, ...}) = 0
+4034  mmap(NULL, 487696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd508691000
+4034  mmap(0x7fd508693000, 356352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fd508693000
+4034  mmap(0x7fd5086ea000, 118784, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x59000) = 0x7fd5086ea000
+4034  mmap(0x7fd508707000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x75000) = 0x7fd508707000
+4034  close(3)                          = 0
+4034  openat(AT_FDCWD, "/lib64/libssl.so.3", O_RDONLY|O_CLOEXEC) = 3
+4034  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320f\2\0\0\0\0\0"..., 832) = 832
+4034  fstat(3, {st_mode=S_IFREG|0755, st_size=957488, ...}) = 0
+4034  mmap(NULL, 941456, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd5085ab000
+4034  mmap(0x7fd5085cd000, 577536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7fd5085cd000
+4034  mmap(0x7fd50865a000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xaf000) = 0x7fd50865a000
+4034  mmap(0x7fd508682000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd6000) = 0x7fd508682000
+4034  close(3)                          = 0
+4034  openat(AT_FDCWD, "/lib64/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+4034  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0`\v\0\0\0\0\0"..., 832) = 832
+4034  fstat(3, {st_mode=S_IFREG|0755, st_size=5436640, ...}) = 0
+4034  mmap(NULL, 5344208, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd508000000
+4034  mmap(0x7fd5080b4000, 3334144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb4000) = 0x7fd5080b4000
+4034  mmap(0x7fd5083e2000, 876544, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e2000) = 0x7fd5083e2000
+4034  mmap(0x7fd5084b8000, 385024, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4b7000) = 0x7fd5084b8000
+4034  mmap(0x7fd508516000, 11216, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd508516000
+4034  close(3)                          = 0
+4034  openat(AT_FDCWD, "/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+4034  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3605\0\0\0\0\0\0"..., 832) = 832
+4034  fstat(3, {st_mode=S_IFREG|0755, st_size=102552, ...}) = 0
+4034  mmap(NULL, 102408, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd508591000
+4034  mprotect(0x7fd508594000, 86016, PROT_NONE) = 0
+4034  mmap(0x7fd508594000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fd508594000
+4034  mmap(0x7fd5085a2000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7fd5085a2000
+4034  mmap(0x7fd5085a9000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fd5085a9000
+4034  mmap(0x7fd5085aa000, 8, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd5085aa000
+4034  close(3)                          = 0
+4034  openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+4034  read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\227\2\0\0\0\0\0"..., 832) = 832
+4034  pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+4034  pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+4034  pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0z@\242,\232\202\205O=fvr2\2566J"..., 68, 896) = 68
+4034  fstat(3, {st_mode=S_IFREG|0755, st_size=2539832, ...}) = 0
+4034  pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+4034  mmap(NULL, 2125744, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd507c00000
+4034  mmap(0x7fd507c28000, 1523712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fd507c28000
+4034  mmap(0x7fd507d9c000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7fd507d9c000
+4034  mmap(0x7fd507df4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f4000) = 0x7fd507df4000
+4034  mmap(0x7fd507dfa000, 53168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd507dfa000
+4034  close(3)                          = 0
+4034  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd50858f000
+4034  mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd50858c000
+4034  arch_prctl(ARCH_SET_FS, 0x7fd50858c740) = 0
+4034  set_tid_address(0x7fd50858ca10)   = 4034
+4034  set_robust_list(0x7fd50858ca20, 24) = 0
+4034  rseq(0x7fd50858d0e0, 0x20, 0, 0x53053053) = 0
+4034  mprotect(0x7fd507df4000, 16384, PROT_READ) = 0
+4034  mprotect(0x7fd5085a9000, 4096, PROT_READ) = 0
+4034  mprotect(0x7fd5084b8000, 372736, PROT_READ) = 0
+4034  mprotect(0x7fd508682000, 45056, PROT_READ) = 0
+4034  mprotect(0x7fd508707000, 4096, PROT_READ) = 0
+4034  mprotect(0x7fd508739000, 4096, PROT_READ) = 0
+4034  mprotect(0x55724200c000, 8192, PROT_READ) = 0
+4034  mprotect(0x7fd50877d000, 8192, PROT_READ) = 0
+4034  prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+4034  munmap(0x7fd508745000, 14083)     = 0
+4034  getrandom("\x07\xa8\xef\x2e\xdf\xa5\x78\x6f", 8, GRND_NONBLOCK) = 8
+4034  brk(NULL)                         = 0x557242607000
+4034  brk(0x557242628000)               = 0x557242628000
+4034  openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+4034  fstat(3, {st_mode=S_IFREG|0644, st_size=2962, ...}) = 0
+4034  fstat(3, {st_mode=S_IFREG|0644, st_size=2962, ...}) = 0
+4034  read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0\r\0\0\0\0"..., 4096) = 2962
+4034  lseek(3, -1863, SEEK_CUR)         = 1099
+4034  read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0\r\0\0\0\0"..., 4096) = 1863
+4034  close(3)                          = 0
+4034  getpid()                          = 4034
+4034  getppid()                         = 4031
+4034  openat(AT_FDCWD, "/var/log/nginx/error.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 3
+4034  futex(0x7fd5085162a4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd5085162a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd50851629c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd5085165e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508516294, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508516290, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  openat(AT_FDCWD, "/proc/sys/crypto/fips_enabled", O_RDONLY) = 4
+4034  read(4, "0\n", 2)                 = 2
+4034  close(4)                          = 0
+4034  futex(0x7fd508515c08, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508515f20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508516180, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508515f30, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508516298, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  openat(AT_FDCWD, "/etc/pki/tls/openssl.cnf", O_RDONLY) = 4
+4034  fstat(4, {st_mode=S_IFREG|0644, st_size=12433, ...}) = 0
+4034  read(4, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+4034  newfstatat(AT_FDCWD, "/etc/pki/tls/openssl.d", {st_mode=S_IFDIR|0755, st_size=6, ...}, 0) = 0
+4034  openat(AT_FDCWD, "/etc/pki/tls/openssl.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+4034  fstat(5, {st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4034  getdents64(5, 0x55724261e430 /* 2 entries */, 32768) = 48
+4034  getdents64(5, 0x55724261e430 /* 0 entries */, 32768) = 0
+4034  close(5)                          = 0
+4034  newfstatat(AT_FDCWD, "/etc/crypto-policies/back-ends/opensslcnf.config", {st_mode=S_IFREG|0644, st_size=737, ...}, 0) = 0
+4034  openat(AT_FDCWD, "/etc/crypto-policies/back-ends/opensslcnf.config", O_RDONLY) = 5
+4034  fstat(5, {st_mode=S_IFREG|0644, st_size=737, ...}) = 0
+4034  read(5, "CipherString = @SECLEVEL=2:kEECD"..., 4096) = 737
+4034  read(5, "", 4096)                 = 0
+4034  close(5)                          = 0
+4034  read(4, "d look\n# For type CA, the listed"..., 4096) = 4096
+4034  read(4, "mmendation\n# subjectAltName=emai"..., 4096) = 4096
+4034  read(4, "e update\ncmd = kur\noldcert = $in"..., 4096) = 145
+4034  read(4, "", 4096)                 = 0
+4034  close(4)                          = 0
+4034  futex(0x7fd508515dc8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508515ef0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508516280, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd50851627c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508515de0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd50851628c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508515df0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  futex(0x7fd508690d58, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  sysinfo({uptime=1440, loads=[5600, 2816, 576], totalram=2838659072, freeram=2275586048, sharedram=7671808, bufferram=2772992, totalswap=2902454272, freeswap=2902454272, procs=135, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+4034  futex(0x7fd508690d78, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  uname({sysname="Linux", nodename="vbox", ...}) = 0
+4034  openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 4
+4034  read(4, "0-2\n", 1024)            = 4
+4034  close(4)                          = 0
+4034  prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=512*1024}) = 0
+4034  newfstatat(AT_FDCWD, "/etc/localtime", {st_mode=S_IFREG|0644, st_size=2962, ...}, 0) = 0
+4034  uname({sysname="Linux", nodename="vbox", ...}) = 0
+4034  brk(0x55724264c000)               = 0x55724264c000
+4034  openat(AT_FDCWD, "/etc/nginx/nginx.conf", O_RDONLY) = 4
+4034  fstat(4, {st_mode=S_IFREG|0644, st_size=2334, ...}) = 0
+4034  pread64(4, "# For more information on config"..., 2334, 0) = 2334
+4034  geteuid()                         = 0
+4034  socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+4034  connect(5, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4034  close(5)                          = 0
+4034  socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+4034  connect(5, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4034  close(5)                          = 0
+4034  newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4034  newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0555, st_size=255, ...}, 0) = 0
+4034  openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 5
+4034  fstat(5, {st_mode=S_IFREG|0644, st_size=2124, ...}) = 0
+4034  read(5, "#\n# /etc/nsswitch.conf\n#\n# Name "..., 4096) = 2124
+4034  read(5, "", 4096)                 = 0
+4034  fstat(5, {st_mode=S_IFREG|0644, st_size=2124, ...}) = 0
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5
+4034  fstat(5, {st_mode=S_IFREG|0644, st_size=14083, ...}) = 0
+4034  mmap(NULL, 14083, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7fd508745000
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/lib64/libnss_sss.so.2", O_RDONLY|O_CLOEXEC) = 5
+4034  read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260%\0\0\0\0\0\0"..., 832) = 832
+4034  fstat(5, {st_mode=S_IFREG|0755, st_size=53480, ...}) = 0
+4034  mmap(NULL, 53856, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7fd50857e000
+4034  mmap(0x7fd508580000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7fd508580000
+4034  mmap(0x7fd508588000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xa000) = 0x7fd508588000
+4034  mmap(0x7fd50858a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xb000) = 0x7fd50858a000
+4034  close(5)                          = 0
+4034  mprotect(0x7fd50858a000, 4096, PROT_READ) = 0
+4034  munmap(0x7fd508745000, 14083)     = 0
+4034  openat(AT_FDCWD, "/var/lib/sss/mc/passwd", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4034  futex(0x7fd50858b214, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  openat(AT_FDCWD, "/var/lib/sss/mc/passwd", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4034  futex(0x7fd50858b250, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4034  newfstatat(AT_FDCWD, "/proc/self/", {st_mode=S_IFDIR|0555, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4034  getpid()                          = 4034
+4034  fstat(-1, 0x7ffd568a65c0)         = -1 EBADF (Bad file descriptor)
+4034  socket(AF_UNIX, SOCK_STREAM, 0)   = 5
+4034  fcntl(5, F_GETFL)                 = 0x2 (flags O_RDWR)
+4034  fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+4034  fcntl(5, F_GETFD)                 = 0
+4034  fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+4034  connect(5, {sa_family=AF_UNIX, sun_path="/var/lib/sss/pipes/nss"}, 110) = -1 ENOENT (No such file or directory)
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 5
+4034  fstat(5, {st_mode=S_IFREG|0644, st_size=1003, ...}) = 0
+4034  lseek(5, 0, SEEK_SET)             = 0
+4034  read(5, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 1003
+4034  close(5)                          = 0
+4034  socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+4034  connect(5, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4034  close(5)                          = 0
+4034  socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+4034  connect(5, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+4034  close(5)                          = 0
+4034  newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4034  openat(AT_FDCWD, "/var/lib/sss/mc/group", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4034  openat(AT_FDCWD, "/var/lib/sss/mc/group", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4034  newfstatat(AT_FDCWD, "/proc/self/", {st_mode=S_IFDIR|0555, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4034  getpid()                          = 4034
+4034  socket(AF_UNIX, SOCK_STREAM, 0)   = 5
+4034  fcntl(5, F_GETFL)                 = 0x2 (flags O_RDWR)
+4034  fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+4034  fcntl(5, F_GETFD)                 = 0
+4034  fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+4034  connect(5, {sa_family=AF_UNIX, sun_path="/var/lib/sss/pipes/nss"}, 110) = -1 ENOENT (No such file or directory)
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 5
+4034  fstat(5, {st_mode=S_IFREG|0644, st_size=493, ...}) = 0
+4034  lseek(5, 0, SEEK_SET)             = 0
+4034  read(5, "root:x:0:\nbin:x:1:\ndaemon:x:2:\ns"..., 4096) = 493
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/usr/share/nginx/modules", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+4034  fstat(5, {st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4034  getdents64(5, 0x55724262c5c0 /* 2 entries */, 32768) = 48
+4034  getdents64(5, 0x55724262c5c0 /* 0 entries */, 32768) = 0
+4034  close(5)                          = 0
+4034  epoll_create(100)                 = 5
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/etc/nginx/mime.types", O_RDONLY) = 5
+4034  fstat(5, {st_mode=S_IFREG|0644, st_size=5231, ...}) = 0
+4034  pread64(5, "\ntypes {\n    text/html          "..., 4096, 0) = 4096
+4034  pread64(5, "pplication/octet-stream         "..., 1135, 4096) = 1135
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/etc/nginx/conf.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+4034  fstat(5, {st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4034  brk(0x55724266d000)               = 0x55724266d000
+4034  getdents64(5, 0x557242644f30 /* 2 entries */, 32768) = 48
+4034  getdents64(5, 0x557242644f30 /* 0 entries */, 32768) = 0
+4034  brk(0x557242665000)               = 0x557242665000
+4034  close(5)                          = 0
+4034  openat(AT_FDCWD, "/etc/nginx/default.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+4034  fstat(5, {st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4034  getdents64(5, 0x557242644f30 /* 2 entries */, 32768) = 48
+4034  getdents64(5, 0x557242644f30 /* 0 entries */, 32768) = 0
+4034  close(5)                          = 0
+4034  close(4)                          = 0
+4034  mkdir("/var/lib/nginx/tmp/client_body", 0700) = -1 EEXIST (File exists)
+4034  newfstatat(AT_FDCWD, "/var/lib/nginx/tmp/client_body", {st_mode=S_IFDIR|0700, st_size=6, ...}, 0) = 0
+4034  mkdir("/var/lib/nginx/tmp/proxy", 0700) = -1 EEXIST (File exists)
+4034  newfstatat(AT_FDCWD, "/var/lib/nginx/tmp/proxy", {st_mode=S_IFDIR|0700, st_size=6, ...}, 0) = 0
+4034  mkdir("/var/lib/nginx/tmp/fastcgi", 0700) = -1 EEXIST (File exists)
+4034  newfstatat(AT_FDCWD, "/var/lib/nginx/tmp/fastcgi", {st_mode=S_IFDIR|0700, st_size=6, ...}, 0) = 0
+4034  mkdir("/var/lib/nginx/tmp/uwsgi", 0700) = -1 EEXIST (File exists)
+4034  newfstatat(AT_FDCWD, "/var/lib/nginx/tmp/uwsgi", {st_mode=S_IFDIR|0700, st_size=6, ...}, 0) = 0
+4034  mkdir("/var/lib/nginx/tmp/scgi", 0700) = -1 EEXIST (File exists)
+4034  newfstatat(AT_FDCWD, "/var/lib/nginx/tmp/scgi", {st_mode=S_IFDIR|0700, st_size=6, ...}, 0) = 0
+4034  openat(AT_FDCWD, "/var/log/nginx/error.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 4
+4034  fcntl(4, F_SETFD, FD_CLOEXEC)     = 0
+4034  openat(AT_FDCWD, "/var/log/nginx/access.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 5
+4034  fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+4034  socket(AF_INET, SOCK_STREAM, IPPROTO_IP) = 6
+4034  setsockopt(6, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+4034  ioctl(6, FIONBIO, [1])            = 0
+4034  bind(6, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+4034  listen(6, 511)                    = 0
+4034  socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 7
+4034  setsockopt(7, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+4034  setsockopt(7, SOL_IPV6, IPV6_V6ONLY, [1], 4) = 0
+4034  ioctl(7, FIONBIO, [1])            = 0
+4034  bind(7, {sa_family=AF_INET6, sin6_port=htons(80), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::", &sin6_addr), sin6_scope_id=0}, 28) = 0
+4034  listen(7, 511)                    = 0
+4034  listen(6, 511)                    = 0
+4034  listen(7, 511)                    = 0
+4034  prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=512*1024}) = 0
+4034  mmap(NULL, 1280, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0) = 0x7fd508748000
+4034  rt_sigaction(SIGHUP, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGUSR1, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGWINCH, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGTERM, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGQUIT, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGUSR2, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGALRM, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGINT, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGIO, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGCHLD, {sa_handler=0x557241f37080, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGSYS, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fd507c3e730}, NULL, 8) = 0
+4034  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd50858ca10) = 4035
+4035  set_robust_list(0x7fd50858ca20, 24 <unfinished ...>
+4034  openat(AT_FDCWD, "/run/nginx.pid", O_RDWR|O_CREAT|O_TRUNC, 0644 <unfinished ...>
+4035  <... set_robust_list resumed>)    = 0
+4034  <... openat resumed>)             = 8
+4035  getpid( <unfinished ...>
+4034  pwrite64(8, "4035\n", 5, 0 <unfinished ...>
+4035  <... getpid resumed>)             = 4035
+4034  <... pwrite64 resumed>)           = 5
+4035  setsid( <unfinished ...>
+4034  close(8 <unfinished ...>
+4035  <... setsid resumed>)             = 4035
+4034  <... close resumed>)              = 0
+4035  umask(000)                        = 022
+4034  exit_group(0)                     = ?
+4035  openat(AT_FDCWD, "/dev/null", O_RDWR) = 8
+4034  +++ exited with 0 +++
+4035  dup2(8, 0)                        = 0
+4035  dup2(8, 1)                        = 1
+4035  close(8)                          = 0
+4035  dup2(4, 2)                        = 2
+4035  close(3)                          = 0
+4035  rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT USR1 USR2 ALRM TERM CHLD WINCH IO], NULL, 8) = 0
+4035  socketpair(AF_UNIX, SOCK_STREAM, 0, [3, 8]) = 0
+4035  ioctl(3, FIONBIO, [1])            = 0
+4035  ioctl(8, FIONBIO, [1])            = 0
+4035  ioctl(3, FIOASYNC, [1])           = 0
+4035  fcntl(3, F_SETOWN, 4035)          = 0
+4035  fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+4035  fcntl(8, F_SETFD, FD_CLOEXEC)     = 0
+4035  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd50858ca10) = 4036
+4036  set_robust_list(0x7fd50858ca20, 24) = 0
+4035  socketpair(AF_UNIX, SOCK_STREAM, 0,  <unfinished ...>
+4036  getpid( <unfinished ...>
+4035  <... socketpair resumed>[9, 10])  = 0
+4036  <... getpid resumed>)             = 4036
+4035  ioctl(9, FIONBIO, [1] <unfinished ...>
+4036  geteuid( <unfinished ...>
+4035  <... ioctl resumed>)              = 0
+4036  <... geteuid resumed>)            = 0
+4035  ioctl(10, FIONBIO, [1] <unfinished ...>
+4036  setgid(993 <unfinished ...>
+4035  <... ioctl resumed>)              = 0
+4036  <... setgid resumed>)             = 0
+4035  ioctl(9, FIOASYNC, [1] <unfinished ...>
+4036  openat(AT_FDCWD, "/proc/sys/kernel/ngroups_max", O_RDONLY|O_CLOEXEC <unfinished ...>
+4035  <... ioctl resumed>)              = 0
+4036  <... openat resumed>)             = 9
+4035  fcntl(9, F_SETOWN, 4035 <unfinished ...>
+4036  read(9, "65536\n", 31)            = 6
+4035  <... fcntl resumed>)              = 0
+4036  close(9 <unfinished ...>
+4035  fcntl(9, F_SETFD, FD_CLOEXEC <unfinished ...>
+4036  <... close resumed>)              = 0
+4035  <... fcntl resumed>)              = 0
+4036  newfstatat(AT_FDCWD, "/etc/nsswitch.conf",  <unfinished ...>
+4035  fcntl(10, F_SETFD, FD_CLOEXEC <unfinished ...>
+4036  <... newfstatat resumed>{st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4035  <... fcntl resumed>)              = 0
+4036  newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4035  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+4036  openat(AT_FDCWD, "/var/lib/sss/mc/initgroups", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4037  set_robust_list(0x7fd50858ca20, 24 <unfinished ...>
+4036  openat(AT_FDCWD, "/var/lib/sss/mc/initgroups", O_RDONLY|O_CLOEXEC <unfinished ...>
+4035  <... clone resumed>, child_tidptr=0x7fd50858ca10) = 4037
+4037  <... set_robust_list resumed>)    = 0
+4037  getpid( <unfinished ...>
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4035  sendmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\305\17\0\0rU\0\0\1\0\0\0\0\0\0\0\t\0\0\0\277\305\22<", iov_len=32}], msg_iovlen=1, msg_control=[{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[9]}], msg_controllen=24, msg_flags=0}, 0 <unfinished ...>
+4037  <... getpid resumed>)             = 4037
+4036  newfstatat(AT_FDCWD, "/proc/self/",  <unfinished ...>
+4035  <... sendmsg resumed>)            = 32
+4037  geteuid( <unfinished ...>
+4036  <... newfstatat resumed>{st_mode=S_IFDIR|0555, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4035  socketpair(AF_UNIX, SOCK_STREAM, 0,  <unfinished ...>
+4037  <... geteuid resumed>)            = 0
+4037  setgid(993 <unfinished ...>
+4036  getpid( <unfinished ...>
+4035  <... socketpair resumed>[11, 12]) = 0
+4037  <... setgid resumed>)             = 0
+4037  openat(AT_FDCWD, "/proc/sys/kernel/ngroups_max", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  <... getpid resumed>)             = 4036
+4035  ioctl(11, FIONBIO, [1] <unfinished ...>
+4037  <... openat resumed>)             = 11
+4036  fstat(-1,  <unfinished ...>
+4035  <... ioctl resumed>)              = 0
+4037  read(11,  <unfinished ...>
+4035  ioctl(12, FIONBIO, [1] <unfinished ...>
+4037  <... read resumed>"65536\n", 31)  = 6
+4036  <... fstat resumed>0x7ffd568a66d0) = -1 EBADF (Bad file descriptor)
+4035  <... ioctl resumed>)              = 0
+4037  close(11)                         = 0
+4036  socket(AF_UNIX, SOCK_STREAM, 0 <unfinished ...>
+4035  ioctl(11, FIOASYNC, [1] <unfinished ...>
+4037  newfstatat(AT_FDCWD, "/etc/nsswitch.conf",  <unfinished ...>
+4036  <... socket resumed>)             = 9
+4035  <... ioctl resumed>)              = 0
+4037  <... newfstatat resumed>{st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4036  fcntl(9, F_GETFL <unfinished ...>
+4035  fcntl(11, F_SETOWN, 4035 <unfinished ...>
+4037  newfstatat(AT_FDCWD, "/etc/nsswitch.conf",  <unfinished ...>
+4036  <... fcntl resumed>)              = 0x2 (flags O_RDWR)
+4035  <... fcntl resumed>)              = 0
+4037  <... newfstatat resumed>{st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4036  fcntl(9, F_SETFL, O_RDWR|O_NONBLOCK <unfinished ...>
+4035  fcntl(11, F_SETFD, FD_CLOEXEC <unfinished ...>
+4036  <... fcntl resumed>)              = 0
+4036  fcntl(9, F_GETFD)                 = 0
+4036  fcntl(9, F_SETFD, FD_CLOEXEC)     = 0
+4036  connect(9, {sa_family=AF_UNIX, sun_path="/var/lib/sss/pipes/nss"}, 110 <unfinished ...>
+4035  <... fcntl resumed>)              = 0
+4037  openat(AT_FDCWD, "/var/lib/sss/mc/initgroups", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+4036  <... connect resumed>)            = -1 ENOENT (No such file or directory)
+4035  fcntl(12, F_SETFD, FD_CLOEXEC <unfinished ...>
+4037  openat(AT_FDCWD, "/var/lib/sss/mc/initgroups", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  close(9 <unfinished ...>
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4035  <... fcntl resumed>)              = 0
+4036  <... close resumed>)              = 0
+4037  newfstatat(AT_FDCWD, "/proc/self/",  <unfinished ...>
+4035  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+4036  openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  <... newfstatat resumed>{st_mode=S_IFDIR|0555, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4036  <... openat resumed>)             = 9
+4037  getpid( <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4037  <... getpid resumed>)             = 4037
+4036  <... fstat resumed>{st_mode=S_IFREG|0644, st_size=493, ...}) = 0
+4038  set_robust_list(0x7fd50858ca20, 24 <unfinished ...>
+4037  fstat(-1,  <unfinished ...>
+4035  <... clone resumed>, child_tidptr=0x7fd50858ca10) = 4038
+4038  <... set_robust_list resumed>)    = 0
+4037  <... fstat resumed>0x7ffd568a66d0) = -1 EBADF (Bad file descriptor)
+4036  lseek(9, 0, SEEK_SET <unfinished ...>
+4038  getpid( <unfinished ...>
+4037  socket(AF_UNIX, SOCK_STREAM, 0 <unfinished ...>
+4036  <... lseek resumed>)              = 0
+4035  sendmsg(3, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\306\17\0\0rU\0\0\2\0\0\0\0\0\0\0\v\0\0\0\277\305\22<", iov_len=32}], msg_iovlen=1, msg_control=[{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[11]}], msg_controllen=24, msg_flags=0}, 0 <unfinished ...>
+4038  <... getpid resumed>)             = 4038
+4037  <... socket resumed>)             = 11
+4035  <... sendmsg resumed>)            = 32
+4037  fcntl(11, F_GETFL <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  geteuid()                         = 0
+4037  <... fcntl resumed>)              = 0x2 (flags O_RDWR)
+4036  <... read resumed>"root:x:0:\nbin:x:1:\ndaemon:x:2:\ns"..., 4096) = 493
+4035  sendmsg(9, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\306\17\0\0rU\0\0\2\0\0\0\0\0\0\0\v\0\0\0\277\305\22<", iov_len=32}], msg_iovlen=1, msg_control=[{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[11]}], msg_controllen=24, msg_flags=0}, 0 <unfinished ...>
+4038  setgid(993 <unfinished ...>
+4037  fcntl(11, F_SETFL, O_RDWR|O_NONBLOCK <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  <... setgid resumed>)             = 0
+4035  <... sendmsg resumed>)            = 32
+4038  openat(AT_FDCWD, "/proc/sys/kernel/ngroups_max", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  <... fcntl resumed>)              = 0
+4036  <... read resumed>"", 4096)       = 0
+4035  rt_sigsuspend([], 8 <unfinished ...>
+4037  fcntl(11, F_GETFD <unfinished ...>
+4036  close(9 <unfinished ...>
+4038  <... openat resumed>)             = 13
+4037  <... fcntl resumed>)              = 0
+4036  <... close resumed>)              = 0
+4038  read(13, "65536\n", 31)           = 6
+4037  fcntl(11, F_SETFD, FD_CLOEXEC <unfinished ...>
+4036  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  close(13 <unfinished ...>
+4037  <... fcntl resumed>)              = 0
+4038  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 9
+4037  connect(11, {sa_family=AF_UNIX, sun_path="/var/lib/sss/pipes/nss"}, 110 <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4037  <... connect resumed>)            = -1 ENOENT (No such file or directory)
+4036  <... fstat resumed>{st_mode=S_IFREG|0644, st_size=14083, ...}) = 0
+4038  newfstatat(AT_FDCWD, "/etc/nsswitch.conf",  <unfinished ...>
+4037  close(11 <unfinished ...>
+4036  mmap(NULL, 14083, PROT_READ, MAP_PRIVATE, 9, 0 <unfinished ...>
+4038  <... newfstatat resumed>{st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4037  <... close resumed>)              = 0
+4038  newfstatat(AT_FDCWD, "/etc/nsswitch.conf",  <unfinished ...>
+4037  openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd50857a000
+4038  <... newfstatat resumed>{st_mode=S_IFREG|0644, st_size=2124, ...}, 0) = 0
+4037  <... openat resumed>)             = 11
+4036  close(9 <unfinished ...>
+4038  openat(AT_FDCWD, "/var/lib/sss/mc/initgroups", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  fstat(11,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  <... fstat resumed>{st_mode=S_IFREG|0644, st_size=493, ...}) = 0
+4038  openat(AT_FDCWD, "/var/lib/sss/mc/initgroups", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  openat(AT_FDCWD, "/lib64/libnss_systemd.so.2", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  lseek(11, 0, SEEK_SET <unfinished ...>
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  <... openat resumed>)             = 9
+4037  <... lseek resumed>)              = 0
+4038  newfstatat(AT_FDCWD, "/proc/self/",  <unfinished ...>
+4036  read(9,  <unfinished ...>
+4037  read(11,  <unfinished ...>
+4038  <... newfstatat resumed>{st_mode=S_IFDIR|0555, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+4037  <... read resumed>"root:x:0:\nbin:x:1:\ndaemon:x:2:\ns"..., 4096) = 493
+4036  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\203\0\0\0\0\0\0"..., 832) = 832
+4038  getpid()                          = 4038
+4037  read(11,  <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4038  fstat(-1, 0x7ffd568a66d0)         = -1 EBADF (Bad file descriptor)
+4037  <... read resumed>"", 4096)       = 0
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=353400, ...}) = 0
+4038  socket(AF_UNIX, SOCK_STREAM, 0 <unfinished ...>
+4037  close(11 <unfinished ...>
+4036  mmap(NULL, 350752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4038  <... socket resumed>)             = 13
+4037  <... close resumed>)              = 0
+4036  <... mmap resumed>)               = 0x7fd508524000
+4038  fcntl(13, F_GETFL)                = 0x2 (flags O_RDWR)
+4037  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  mmap(0x7fd50852b000, 229376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x7000 <unfinished ...>
+4038  fcntl(13, F_SETFL, O_RDWR|O_NONBLOCK <unfinished ...>
+4037  <... openat resumed>)             = 11
+4038  <... fcntl resumed>)              = 0
+4036  <... mmap resumed>)               = 0x7fd50852b000
+4037  fstat(11,  <unfinished ...>
+4036  mmap(0x7fd508563000, 73728, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x3f000 <unfinished ...>
+4038  fcntl(13, F_GETFD <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFREG|0644, st_size=14083, ...}) = 0
+4038  <... fcntl resumed>)              = 0
+4036  <... mmap resumed>)               = 0x7fd508563000
+4037  mmap(NULL, 14083, PROT_READ, MAP_PRIVATE, 11, 0 <unfinished ...>
+4038  fcntl(13, F_SETFD, FD_CLOEXEC <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd50857a000
+4036  mmap(0x7fd508575000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x50000 <unfinished ...>
+4038  <... fcntl resumed>)              = 0
+4038  connect(13, {sa_family=AF_UNIX, sun_path="/var/lib/sss/pipes/nss"}, 110 <unfinished ...>
+4037  close(11 <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd508575000
+4038  <... connect resumed>)            = -1 ENOENT (No such file or directory)
+4037  <... close resumed>)              = 0
+4038  close(13 <unfinished ...>
+4036  close(9 <unfinished ...>
+4037  openat(AT_FDCWD, "/lib64/libnss_systemd.so.2", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... close resumed>)              = 0
+4036  <... close resumed>)              = 0
+4037  <... openat resumed>)             = 11
+4038  openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  read(11,  <unfinished ...>
+4036  openat(AT_FDCWD, "/lib64/libcap.so.2", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... openat resumed>)             = 13
+4037  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\203\0\0\0\0\0\0"..., 832) = 832
+4038  fstat(13,  <unfinished ...>
+4036  <... openat resumed>)             = 9
+4037  fstat(11,  <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFREG|0644, st_size=493, ...}) = 0
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=353400, ...}) = 0
+4036  read(9,  <unfinished ...>
+4037  mmap(NULL, 350752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4036  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P'\0\0\0\0\0\0"..., 832) = 832
+4038  lseek(13, 0, SEEK_SET <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd508524000
+4038  <... lseek resumed>)              = 0
+4036  fstat(9,  <unfinished ...>
+4038  read(13,  <unfinished ...>
+4037  mmap(0x7fd50852b000, 229376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x7000 <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=36304, ...}) = 0
+4038  <... read resumed>"root:x:0:\nbin:x:1:\ndaemon:x:2:\ns"..., 4096) = 493
+4037  <... mmap resumed>)               = 0x7fd50852b000
+4038  read(13,  <unfinished ...>
+4037  mmap(0x7fd508563000, 73728, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x3f000 <unfinished ...>
+4036  mmap(NULL, 36920, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4038  <... read resumed>"", 4096)       = 0
+4038  close(13 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd508563000
+4036  <... mmap resumed>)               = 0x7fd50851a000
+4038  <... close resumed>)              = 0
+4037  mmap(0x7fd508575000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x50000 <unfinished ...>
+4036  mmap(0x7fd50851c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x2000) = 0x7fd50851c000
+4038  openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd508575000
+4038  <... openat resumed>)             = 13
+4037  close(11 <unfinished ...>
+4036  mmap(0x7fd508520000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x6000 <unfinished ...>
+4038  fstat(13, {st_mode=S_IFREG|0644, st_size=14083, ...}) = 0
+4037  <... close resumed>)              = 0
+4036  <... mmap resumed>)               = 0x7fd508520000
+4038  mmap(NULL, 14083, PROT_READ, MAP_PRIVATE, 13, 0 <unfinished ...>
+4036  mmap(0x7fd508522000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x7000 <unfinished ...>
+4037  openat(AT_FDCWD, "/lib64/libcap.so.2", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd50857a000
+4036  <... mmap resumed>)               = 0x7fd508522000
+4038  close(13 <unfinished ...>
+4037  <... openat resumed>)             = 11
+4036  close(9 <unfinished ...>
+4038  <... close resumed>)              = 0
+4038  openat(AT_FDCWD, "/lib64/libnss_systemd.so.2", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  read(11,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... openat resumed>)             = 13
+4037  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P'\0\0\0\0\0\0"..., 832) = 832
+4038  read(13,  <unfinished ...>
+4036  openat(AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  fstat(11,  <unfinished ...>
+4038  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\203\0\0\0\0\0\0"..., 832) = 832
+4036  <... openat resumed>)             = 9
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=36304, ...}) = 0
+4038  fstat(13,  <unfinished ...>
+4036  read(9,  <unfinished ...>
+4037  mmap(NULL, 36920, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=353400, ...}) = 0
+4036  <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\323\0\0\0\0\0\0"..., 832) = 832
+4037  <... mmap resumed>)               = 0x7fd50851a000
+4036  fstat(9,  <unfinished ...>
+4038  mmap(NULL, 350752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0) = 0x7fd508524000
+4037  mmap(0x7fd50851c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x2000 <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=912512, ...}) = 0
+4038  mmap(0x7fd50852b000, 229376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x7000 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd50851c000
+4036  mmap(NULL, 893184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd50852b000
+4037  mmap(0x7fd508520000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x6000 <unfinished ...>
+4038  mmap(0x7fd508563000, 73728, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x3f000 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd508520000
+4036  <... mmap resumed>)               = 0x7fd507f25000
+4038  <... mmap resumed>)               = 0x7fd508563000
+4037  mmap(0x7fd508522000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x7000 <unfinished ...>
+4038  mmap(0x7fd508575000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x50000 <unfinished ...>
+4036  mmap(0x7fd507f32000, 458752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0xd000 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd508522000
+4038  <... mmap resumed>)               = 0x7fd508575000
+4037  close(11 <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507f32000
+4037  <... close resumed>)              = 0
+4038  close(13 <unfinished ...>
+4036  mmap(0x7fd507fa2000, 376832, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x7d000 <unfinished ...>
+4037  openat(AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 11
+4036  <... mmap resumed>)               = 0x7fd507fa2000
+4038  <... close resumed>)              = 0
+4037  read(11,  <unfinished ...>
+4038  openat(AT_FDCWD, "/lib64/libcap.so.2", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\323\0\0\0\0\0\0"..., 832) = 832
+4036  mmap(0x7fd507ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0xd8000 <unfinished ...>
+4038  <... openat resumed>)             = 13
+4037  fstat(11,  <unfinished ...>
+4038  read(13,  <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507ffe000
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=912512, ...}) = 0
+4036  close(9 <unfinished ...>
+4038  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P'\0\0\0\0\0\0"..., 832) = 832
+4037  mmap(NULL, 893184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4038  fstat(13,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=36304, ...}) = 0
+4037  <... mmap resumed>)               = 0x7fd507f25000
+4036  openat(AT_FDCWD, "/lib64/libp11-kit.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  mmap(NULL, 36920, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0 <unfinished ...>
+4037  mmap(0x7fd507f32000, 458752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0xd000 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd50851a000
+4036  <... openat resumed>)             = 9
+4037  <... mmap resumed>)               = 0x7fd507f32000
+4038  mmap(0x7fd50851c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x2000 <unfinished ...>
+4037  mmap(0x7fd507fa2000, 376832, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x7d000 <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd50851c000
+4038  mmap(0x7fd508520000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x6000 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507fa2000
+4036  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20b\3\0\0\0\0\0"..., 832) = 832
+4038  <... mmap resumed>)               = 0x7fd508520000
+4037  mmap(0x7fd507ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0xd8000 <unfinished ...>
+4038  mmap(0x7fd508522000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x7000 <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd508522000
+4037  <... mmap resumed>)               = 0x7fd507ffe000
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=1714240, ...}) = 0
+4038  close(13 <unfinished ...>
+4037  close(11 <unfinished ...>
+4036  mmap(NULL, 1664200, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4038  <... close resumed>)              = 0
+4038  openat(AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... mmap resumed>)               = 0x7fd507a69000
+4038  <... openat resumed>)             = 13
+4037  openat(AT_FDCWD, "/lib64/libp11-kit.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  read(13,  <unfinished ...>
+4036  mmap(0x7fd507a9e000, 864256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x35000 <unfinished ...>
+4038  <... read resumed>"\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\323\0\0\0\0\0\0"..., 832) = 832
+4037  <... openat resumed>)             = 11
+4036  <... mmap resumed>)               = 0x7fd507a9e000
+4038  fstat(13,  <unfinished ...>
+4037  read(11,  <unfinished ...>
+4036  mmap(0x7fd507b71000, 479232, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x108000 <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=912512, ...}) = 0
+4037  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20b\3\0\0\0\0\0"..., 832) = 832
+4038  mmap(NULL, 893184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0 <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507b71000
+4037  fstat(11,  <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507f25000
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=1714240, ...}) = 0
+4036  mmap(0x7fd507be6000, 102400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x17c000 <unfinished ...>
+4038  mmap(0x7fd507f32000, 458752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0xd000 <unfinished ...>
+4037  mmap(NULL, 1664200, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507f32000
+4037  <... mmap resumed>)               = 0x7fd507a69000
+4036  <... mmap resumed>)               = 0x7fd507be6000
+4038  mmap(0x7fd507fa2000, 376832, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x7d000 <unfinished ...>
+4037  mmap(0x7fd507a9e000, 864256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x35000 <unfinished ...>
+4036  mmap(0x7fd507bff000, 1224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507fa2000
+4037  <... mmap resumed>)               = 0x7fd507a9e000
+4036  <... mmap resumed>)               = 0x7fd507bff000
+4038  mmap(0x7fd507ffe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0xd8000 <unfinished ...>
+4037  mmap(0x7fd507b71000, 479232, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x108000 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507ffe000
+4037  <... mmap resumed>)               = 0x7fd507b71000
+4036  close(9 <unfinished ...>
+4038  close(13 <unfinished ...>
+4037  mmap(0x7fd507be6000, 102400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x17c000 <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  <... mmap resumed>)               = 0x7fd507be6000
+4036  <... close resumed>)              = 0
+4038  openat(AT_FDCWD, "/lib64/libp11-kit.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  mmap(0x7fd507bff000, 1224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4036  openat(AT_FDCWD, "/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... openat resumed>)             = 13
+4038  read(13,  <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507bff000
+4036  <... openat resumed>)             = 9
+4038  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20b\3\0\0\0\0\0"..., 832) = 832
+4038  fstat(13,  <unfinished ...>
+4037  close(11 <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=1714240, ...}) = 0
+4037  <... close resumed>)              = 0
+4038  mmap(NULL, 1664200, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0 <unfinished ...>
+4036  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pp\0\0\0\0\0\0"..., 832) = 832
+4037  openat(AT_FDCWD, "/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507a69000
+4037  <... openat resumed>)             = 11
+4036  fstat(9,  <unfinished ...>
+4038  mmap(0x7fd507a9e000, 864256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x35000 <unfinished ...>
+4037  read(11,  <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=175760, ...}) = 0
+4038  <... mmap resumed>)               = 0x7fd507a9e000
+4036  mmap(NULL, 181896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4038  mmap(0x7fd507b71000, 479232, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x108000 <unfinished ...>
+4037  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pp\0\0\0\0\0\0"..., 832) = 832
+4038  <... mmap resumed>)               = 0x7fd507b71000
+4037  fstat(11,  <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507ef8000
+4038  mmap(0x7fd507be6000, 102400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x17c000 <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=175760, ...}) = 0
+4036  mmap(0x7fd507efe000, 110592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x6000 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507be6000
+4038  mmap(0x7fd507bff000, 1224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4037  mmap(NULL, 181896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507efe000
+4038  <... mmap resumed>)               = 0x7fd507bff000
+4038  close(13 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507ef8000
+4036  mmap(0x7fd507f19000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x21000 <unfinished ...>
+4038  <... close resumed>)              = 0
+4038  openat(AT_FDCWD, "/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  mmap(0x7fd507efe000, 110592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x6000 <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507f19000
+4038  <... openat resumed>)             = 13
+4037  <... mmap resumed>)               = 0x7fd507efe000
+4036  mmap(0x7fd507f21000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x28000 <unfinished ...>
+4038  read(13,  <unfinished ...>
+4037  mmap(0x7fd507f19000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x21000 <unfinished ...>
+4038  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pp\0\0\0\0\0\0"..., 832) = 832
+4036  <... mmap resumed>)               = 0x7fd507f21000
+4037  <... mmap resumed>)               = 0x7fd507f19000
+4038  fstat(13,  <unfinished ...>
+4037  mmap(0x7fd507f21000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x28000 <unfinished ...>
+4036  mmap(0x7fd507f23000, 5768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=175760, ...}) = 0
+4038  mmap(NULL, 181896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507f21000
+4036  <... mmap resumed>)               = 0x7fd507f23000
+4038  <... mmap resumed>)               = 0x7fd507ef8000
+4037  mmap(0x7fd507f23000, 5768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4038  mmap(0x7fd507efe000, 110592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x6000 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507f23000
+4036  close(9 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507efe000
+4037  close(11 <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  mmap(0x7fd507f19000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x21000 <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  openat(AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507f19000
+4037  openat(AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  mmap(0x7fd507f21000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x28000 <unfinished ...>
+4036  <... openat resumed>)             = 9
+4037  <... openat resumed>)             = 11
+4036  read(9,  <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507f21000
+4037  read(11,  <unfinished ...>
+4036  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3605\0\0\0\0\0\0"..., 832) = 832
+4038  mmap(0x7fd507f23000, 5768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4037  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3605\0\0\0\0\0\0"..., 832) = 832
+4038  <... mmap resumed>)               = 0x7fd507f23000
+4037  fstat(11,  <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4038  close(13)                         = 0
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=108136, ...}) = 0
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=108136, ...}) = 0
+4038  openat(AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  mmap(NULL, 103112, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4038  <... openat resumed>)             = 13
+4036  mmap(NULL, 103112, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4038  read(13,  <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507ede000
+4036  <... mmap resumed>)               = 0x7fd507ede000
+4038  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3605\0\0\0\0\0\0"..., 832) = 832
+4038  fstat(13,  <unfinished ...>
+4037  mmap(0x7fd507ee1000, 73728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x3000 <unfinished ...>
+4036  mmap(0x7fd507ee1000, 73728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x3000 <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=108136, ...}) = 0
+4038  mmap(NULL, 103112, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507ee1000
+4036  <... mmap resumed>)               = 0x7fd507ee1000
+4038  <... mmap resumed>)               = 0x7fd507ede000
+4038  mmap(0x7fd507ee1000, 73728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x3000 <unfinished ...>
+4037  mmap(0x7fd507ef3000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x15000 <unfinished ...>
+4036  mmap(0x7fd507ef3000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x15000 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507ee1000
+4037  <... mmap resumed>)               = 0x7fd507ef3000
+4038  mmap(0x7fd507ef3000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x15000 <unfinished ...>
+4037  mmap(0x7fd507ef6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x18000 <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507ef3000
+4038  <... mmap resumed>)               = 0x7fd507ef3000
+4037  <... mmap resumed>)               = 0x7fd507ef6000
+4038  mmap(0x7fd507ef6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x18000 <unfinished ...>
+4036  mmap(0x7fd507ef6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x18000 <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507ef6000
+4037  close(11 <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507ef6000
+4038  close(13 <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  close(9 <unfinished ...>
+4038  <... close resumed>)              = 0
+4038  openat(AT_FDCWD, "/lib64/libffi.so.8", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  openat(AT_FDCWD, "/lib64/libffi.so.8", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... openat resumed>)             = 13
+4037  <... openat resumed>)             = 11
+4038  read(13,  <unfinished ...>
+4037  read(11,  <unfinished ...>
+4036  openat(AT_FDCWD, "/lib64/libffi.so.8", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220%\0\0\0\0\0\0"..., 832) = 832
+4037  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220%\0\0\0\0\0\0"..., 832) = 832
+4038  fstat(13,  <unfinished ...>
+4036  <... openat resumed>)             = 9
+4037  fstat(11,  <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=44784, ...}) = 0
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=44784, ...}) = 0
+4036  read(9,  <unfinished ...>
+4038  mmap(NULL, 46320, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0) = 0x7fd507ed2000
+4037  mmap(NULL, 46320, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4036  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220%\0\0\0\0\0\0"..., 832) = 832
+4038  mprotect(0x7fd507ed4000, 32768, PROT_NONE <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507ed2000
+4036  fstat(9,  <unfinished ...>
+4038  <... mprotect resumed>)           = 0
+4037  mprotect(0x7fd507ed4000, 32768, PROT_NONE <unfinished ...>
+4038  mmap(0x7fd507ed4000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x2000 <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=44784, ...}) = 0
+4037  <... mprotect resumed>)           = 0
+4038  <... mmap resumed>)               = 0x7fd507ed4000
+4037  mmap(0x7fd507ed4000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x2000 <unfinished ...>
+4036  mmap(NULL, 46320, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4038  mmap(0x7fd507eda000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x8000) = 0x7fd507eda000
+4037  <... mmap resumed>)               = 0x7fd507ed4000
+4036  <... mmap resumed>)               = 0x7fd507ed2000
+4038  mmap(0x7fd507edc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x9000 <unfinished ...>
+4037  mmap(0x7fd507eda000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x8000 <unfinished ...>
+4036  mprotect(0x7fd507ed4000, 32768, PROT_NONE <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507edc000
+4038  close(13 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507eda000
+4036  <... mprotect resumed>)           = 0
+4038  <... close resumed>)              = 0
+4037  mmap(0x7fd507edc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x9000 <unfinished ...>
+4036  mmap(0x7fd507ed4000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x2000 <unfinished ...>
+4038  openat(AT_FDCWD, "/lib64/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 13
+4037  <... mmap resumed>)               = 0x7fd507edc000
+4036  <... mmap resumed>)               = 0x7fd507ed4000
+4038  read(13, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220$\0\0\0\0\0\0"..., 832) = 832
+4037  close(11 <unfinished ...>
+4036  mmap(0x7fd507eda000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x8000 <unfinished ...>
+4038  fstat(13,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4038  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=636840, ...}) = 0
+4037  openat(AT_FDCWD, "/lib64/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507eda000
+4038  mmap(NULL, 635440, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 13, 0) = 0x7fd507e36000
+4037  <... openat resumed>)             = 11
+4036  mmap(0x7fd507edc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x9000 <unfinished ...>
+4038  mmap(0x7fd507e38000, 446464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x2000) = 0x7fd507e38000
+4037  read(11,  <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507edc000
+4038  mmap(0x7fd507ea5000, 176128, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x6f000) = 0x7fd507ea5000
+4037  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220$\0\0\0\0\0\0"..., 832) = 832
+4036  close(9 <unfinished ...>
+4038  mmap(0x7fd507ed0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 13, 0x99000) = 0x7fd507ed0000
+4037  fstat(11,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  close(13 <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=636840, ...}) = 0
+4038  <... close resumed>)              = 0
+4036  openat(AT_FDCWD, "/lib64/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  mmap(NULL, 635440, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 11, 0 <unfinished ...>
+4036  <... openat resumed>)             = 9
+4037  <... mmap resumed>)               = 0x7fd507e36000
+4038  mprotect(0x7fd507ed0000, 4096, PROT_READ <unfinished ...>
+4037  mmap(0x7fd507e38000, 446464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x2000 <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  <... mprotect resumed>)           = 0
+4038  mprotect(0x7fd507edc000, 4096, PROT_READ <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507e38000
+4036  <... read resumed>"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220$\0\0\0\0\0\0"..., 832) = 832
+4038  <... mprotect resumed>)           = 0
+4037  mmap(0x7fd507ea5000, 176128, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x6f000 <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4038  mprotect(0x7fd507ef6000, 4096, PROT_READ <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507ea5000
+4036  <... fstat resumed>{st_mode=S_IFREG|0755, st_size=636840, ...}) = 0
+4038  <... mprotect resumed>)           = 0
+4037  mmap(0x7fd507ed0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 11, 0x99000 <unfinished ...>
+4038  mprotect(0x7fd507f21000, 4096, PROT_READ <unfinished ...>
+4036  mmap(NULL, 635440, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 9, 0 <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507ed0000
+4036  <... mmap resumed>)               = 0x7fd507e36000
+4038  <... mprotect resumed>)           = 0
+4037  close(11 <unfinished ...>
+4036  mmap(0x7fd507e38000, 446464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x2000 <unfinished ...>
+4038  mprotect(0x7fd507be6000, 49152, PROT_READ <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... mmap resumed>)               = 0x7fd507e38000
+4038  <... mprotect resumed>)           = 0
+4038  mprotect(0x7fd507ffe000, 4096, PROT_READ <unfinished ...>
+4037  mprotect(0x7fd507ed0000, 4096, PROT_READ <unfinished ...>
+4036  mmap(0x7fd507ea5000, 176128, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x6f000 <unfinished ...>
+4038  <... mprotect resumed>)           = 0
+4037  <... mprotect resumed>)           = 0
+4036  <... mmap resumed>)               = 0x7fd507ea5000
+4038  mprotect(0x7fd508522000, 4096, PROT_READ) = 0
+4037  mprotect(0x7fd507edc000, 4096, PROT_READ <unfinished ...>
+4036  mmap(0x7fd507ed0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 0x99000 <unfinished ...>
+4038  mprotect(0x7fd508575000, 16384, PROT_READ <unfinished ...>
+4037  <... mprotect resumed>)           = 0
+4036  <... mmap resumed>)               = 0x7fd507ed0000
+4038  <... mprotect resumed>)           = 0
+4037  mprotect(0x7fd507ef6000, 4096, PROT_READ) = 0
+4036  close(9 <unfinished ...>
+4038  statfs("/sys/fs/selinux",  <unfinished ...>
+4037  mprotect(0x7fd507f21000, 4096, PROT_READ <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... statfs resumed>{f_type=SYSFS_MAGIC, f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={val=[0, 0]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_NOSUID|ST_NODEV|ST_NOEXEC|ST_RELATIME}) = 0
+4037  <... mprotect resumed>)           = 0
+4038  statfs("/selinux",  <unfinished ...>
+4037  mprotect(0x7fd507be6000, 49152, PROT_READ <unfinished ...>
+4036  mprotect(0x7fd507ed0000, 4096, PROT_READ <unfinished ...>
+4038  <... statfs resumed>0x7ffd568a5fa0) = -1 ENOENT (No such file or directory)
+4037  <... mprotect resumed>)           = 0
+4036  <... mprotect resumed>)           = 0
+4038  openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 13
+4037  mprotect(0x7fd507ffe000, 4096, PROT_READ <unfinished ...>
+4036  mprotect(0x7fd507edc000, 4096, PROT_READ <unfinished ...>
+4038  fstat(13,  <unfinished ...>
+4037  <... mprotect resumed>)           = 0
+4038  <... fstat resumed>{st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+4037  mprotect(0x7fd508522000, 4096, PROT_READ <unfinished ...>
+4036  <... mprotect resumed>)           = 0
+4038  read(13,  <unfinished ...>
+4037  <... mprotect resumed>)           = 0
+4038  <... read resumed>"nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 332
+4037  mprotect(0x7fd508575000, 16384, PROT_READ <unfinished ...>
+4036  mprotect(0x7fd507ef6000, 4096, PROT_READ <unfinished ...>
+4038  close(13 <unfinished ...>
+4037  <... mprotect resumed>)           = 0
+4036  <... mprotect resumed>)           = 0
+4038  <... close resumed>)              = 0
+4036  mprotect(0x7fd507f21000, 4096, PROT_READ <unfinished ...>
+4037  statfs("/sys/fs/selinux",  <unfinished ...>
+4036  <... mprotect resumed>)           = 0
+4038  openat(AT_FDCWD, "/proc/mounts", O_RDONLY|O_CLOEXEC <unfinished ...>
+4037  <... statfs resumed>{f_type=SYSFS_MAGIC, f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={val=[0, 0]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_NOSUID|ST_NODEV|ST_NOEXEC|ST_RELATIME}) = 0
+4037  statfs("/selinux",  <unfinished ...>
+4038  <... openat resumed>)             = 13
+4036  mprotect(0x7fd507be6000, 49152, PROT_READ <unfinished ...>
+4037  <... statfs resumed>0x7ffd568a5fa0) = -1 ENOENT (No such file or directory)
+4038  fstat(13,  <unfinished ...>
+4037  openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  <... mprotect resumed>)           = 0
+4038  <... fstat resumed>{st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+4038  read(13,  <unfinished ...>
+4037  <... openat resumed>)             = 11
+4036  mprotect(0x7fd507ffe000, 4096, PROT_READ <unfinished ...>
+4038  <... read resumed>"proc /proc proc rw,nosuid,nodev,"..., 1024) = 1024
+4037  fstat(11,  <unfinished ...>
+4036  <... mprotect resumed>)           = 0
+4038  read(13,  <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+4038  <... read resumed>",nodev,noexec,relatime 0 0\ndebug"..., 1024) = 926
+4037  read(11,  <unfinished ...>
+4036  mprotect(0x7fd508522000, 4096, PROT_READ <unfinished ...>
+4038  read(13,  <unfinished ...>
+4037  <... read resumed>"nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 332
+4036  <... mprotect resumed>)           = 0
+4038  <... read resumed>"", 1024)       = 0
+4037  close(11 <unfinished ...>
+4038  close(13 <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  mprotect(0x7fd508575000, 16384, PROT_READ <unfinished ...>
+4037  openat(AT_FDCWD, "/proc/mounts", O_RDONLY|O_CLOEXEC <unfinished ...>
+4036  <... mprotect resumed>)           = 0
+4038  <... close resumed>)              = 0
+4037  <... openat resumed>)             = 11
+4038  access("/etc/selinux/config", F_OK <unfinished ...>
+4037  fstat(11,  <unfinished ...>
+4036  statfs("/sys/fs/selinux",  <unfinished ...>
+4038  <... access resumed>)             = 0
+4037  <... fstat resumed>{st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+4036  <... statfs resumed>{f_type=SYSFS_MAGIC, f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={val=[0, 0]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_NOSUID|ST_NODEV|ST_NOEXEC|ST_RELATIME}) = 0
+4038  prctl(PR_CAPBSET_READ, CAP_MAC_OVERRIDE <unfinished ...>
+4037  read(11,  <unfinished ...>
+4038  <... prctl resumed>)              = 1
+4036  statfs("/selinux",  <unfinished ...>
+4038  prctl(PR_CAPBSET_READ, 0x30 /* CAP_??? */ <unfinished ...>
+4037  <... read resumed>"proc /proc proc rw,nosuid,nodev,"..., 1024) = 1024
+4036  <... statfs resumed>0x7ffd568a5fa0) = -1 ENOENT (No such file or directory)
+4038  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4037  read(11,  <unfinished ...>
+4036  openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  prctl(PR_CAPBSET_READ, CAP_CHECKPOINT_RESTORE) = 1
+4037  <... read resumed>",nodev,noexec,relatime 0 0\ndebug"..., 1024) = 926
+4036  <... openat resumed>)             = 9
+4038  prctl(PR_CAPBSET_READ, 0x2c /* CAP_??? */) = -1 EINVAL (Invalid argument)
+4037  read(11,  <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4038  prctl(PR_CAPBSET_READ, 0x2a /* CAP_??? */) = -1 EINVAL (Invalid argument)
+4037  <... read resumed>"", 1024)       = 0
+4036  <... fstat resumed>{st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+4038  prctl(PR_CAPBSET_READ, 0x29 /* CAP_??? */ <unfinished ...>
+4037  close(11 <unfinished ...>
+4038  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4036  read(9,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4038  munmap(0x7fd50857a000, 14083 <unfinished ...>
+4037  access("/etc/selinux/config", F_OK <unfinished ...>
+4036  <... read resumed>"nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 332
+4038  <... munmap resumed>)             = 0
+4038  rt_sigprocmask(SIG_BLOCK, [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO],  <unfinished ...>
+4037  <... access resumed>)             = 0
+4036  close(9 <unfinished ...>
+4038  <... rt_sigprocmask resumed>[HUP INT QUIT USR1 USR2 ALRM TERM CHLD WINCH IO], 8) = 0
+4038  futex(0x7fd5085799f8, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+4037  prctl(PR_CAPBSET_READ, CAP_MAC_OVERRIDE <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... futex resumed>)              = 0
+4038  openat(AT_FDCWD, "/run/systemd/userdb/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY <unfinished ...>
+4037  <... prctl resumed>)              = 1
+4036  openat(AT_FDCWD, "/proc/mounts", O_RDONLY|O_CLOEXEC <unfinished ...>
+4038  <... openat resumed>)             = 13
+4037  prctl(PR_CAPBSET_READ, 0x30 /* CAP_??? */ <unfinished ...>
+4036  <... openat resumed>)             = 9
+4038  fstat(13, {st_mode=S_IFDIR|0755, st_size=60, ...}) = 0
+4037  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4036  fstat(9, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+4038  getdents64(13,  <unfinished ...>
+4037  prctl(PR_CAPBSET_READ, CAP_CHECKPOINT_RESTORE <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  <... getdents64 resumed>0x5572426500f0 /* 3 entries */, 32768) = 96
+4038  socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0 <unfinished ...>
+4037  <... prctl resumed>)              = 1
+4036  <... read resumed>"proc /proc proc rw,nosuid,nodev,"..., 1024) = 1024
+4038  <... socket resumed>)             = 14
+4037  prctl(PR_CAPBSET_READ, 0x2c /* CAP_??? */ <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  connect(14, {sa_family=AF_UNIX, sun_path="/run/systemd/userdb/io.systemd.DynamicUser"}, 45 <unfinished ...>
+4037  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4036  <... read resumed>",nodev,noexec,relatime 0 0\ndebug"..., 1024) = 926
+4038  <... connect resumed>)            = 0
+4038  getpid( <unfinished ...>
+4036  read(9,  <unfinished ...>
+4038  <... getpid resumed>)             = 4038
+4037  prctl(PR_CAPBSET_READ, 0x2a /* CAP_??? */ <unfinished ...>
+4036  <... read resumed>"", 1024)       = 0
+4038  epoll_create1(EPOLL_CLOEXEC <unfinished ...>
+4037  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4038  <... epoll_create1 resumed>)      = 15
+4036  close(9 <unfinished ...>
+4037  prctl(PR_CAPBSET_READ, 0x29 /* CAP_??? */ <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  timerfd_create(CLOCK_MONOTONIC, TFD_CLOEXEC|TFD_NONBLOCK <unfinished ...>
+4037  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4036  access("/etc/selinux/config", F_OK <unfinished ...>
+4038  <... timerfd_create resumed>)     = 16
+4037  munmap(0x7fd50857a000, 14083 <unfinished ...>
+4038  epoll_ctl(15, EPOLL_CTL_ADD, 16, {events=EPOLLIN, data={u32=1113723744, u64=93949228356448}} <unfinished ...>
+4036  <... access resumed>)             = 0
+4037  <... munmap resumed>)             = 0
+4038  <... epoll_ctl resumed>)          = 0
+4037  rt_sigprocmask(SIG_BLOCK, [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO],  <unfinished ...>
+4036  prctl(PR_CAPBSET_READ, CAP_MAC_OVERRIDE <unfinished ...>
+4038  epoll_ctl(15, EPOLL_CTL_ADD, 14, {events=0, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4037  <... rt_sigprocmask resumed>[HUP INT QUIT USR1 USR2 ALRM TERM CHLD WINCH IO], 8) = 0
+4038  <... epoll_ctl resumed>)          = 0
+4036  <... prctl resumed>)              = 1
+4037  futex(0x7fd5085799f8, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+4038  getrandom( <unfinished ...>
+4037  <... futex resumed>)              = 0
+4036  prctl(PR_CAPBSET_READ, 0x30 /* CAP_??? */ <unfinished ...>
+4038  <... getrandom resumed>"\x7f\xdd\xcd\xb4\x5b\x4f\x49\xe3\xcd\x96\x87\x50\x1c\x2e\xf0\xd8", 16, GRND_INSECURE) = 16
+4037  openat(AT_FDCWD, "/run/systemd/userdb/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY <unfinished ...>
+4038  futex(0x7fd5085790c0, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+4036  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4038  <... futex resumed>)              = 0
+4037  <... openat resumed>)             = 11
+4036  prctl(PR_CAPBSET_READ, CAP_CHECKPOINT_RESTORE <unfinished ...>
+4038  getdents64(13,  <unfinished ...>
+4037  fstat(11,  <unfinished ...>
+4038  <... getdents64 resumed>0x5572426500f0 /* 0 entries */, 32768) = 0
+4036  <... prctl resumed>)              = 1
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=60, ...}) = 0
+4038  close(13 <unfinished ...>
+4037  getdents64(11,  <unfinished ...>
+4036  prctl(PR_CAPBSET_READ, 0x2c /* CAP_??? */ <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  <... getdents64 resumed>0x5572426500f0 /* 3 entries */, 32768) = 96
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4037  socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0 <unfinished ...>
+4036  prctl(PR_CAPBSET_READ, 0x2a /* CAP_??? */ <unfinished ...>
+4038  <... openat resumed>)             = 13
+4038  openat(13, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... socket resumed>)             = 12
+4036  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4038  <... openat resumed>)             = 17
+4037  connect(12, {sa_family=AF_UNIX, sun_path="/run/systemd/userdb/io.systemd.DynamicUser"}, 45 <unfinished ...>
+4036  prctl(PR_CAPBSET_READ, 0x29 /* CAP_??? */ <unfinished ...>
+4038  fstat(17,  <unfinished ...>
+4037  <... connect resumed>)            = 0
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+4037  getpid( <unfinished ...>
+4036  <... prctl resumed>)              = -1 EINVAL (Invalid argument)
+4038  close(13)                         = 0
+4037  <... getpid resumed>)             = 4037
+4036  munmap(0x7fd50857a000, 14083 <unfinished ...>
+4038  openat(17, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  epoll_create1(EPOLL_CLOEXEC <unfinished ...>
+4036  <... munmap resumed>)             = 0
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  <... epoll_create1 resumed>)      = 13
+4038  close(17 <unfinished ...>
+4037  timerfd_create(CLOCK_MONOTONIC, TFD_CLOEXEC|TFD_NONBLOCK <unfinished ...>
+4036  rt_sigprocmask(SIG_BLOCK, [HUP USR1 USR2 PIPE ALRM CHLD TSTP URG VTALRM PROF WINCH IO],  <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  <... timerfd_create resumed>)     = 14
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  <... rt_sigprocmask resumed>[HUP INT QUIT USR1 USR2 ALRM TERM CHLD WINCH IO], 8) = 0
+4037  epoll_ctl(13, EPOLL_CTL_ADD, 14, {events=EPOLLIN, data={u32=1113723744, u64=93949228356448}} <unfinished ...>
+4038  <... openat resumed>)             = 13
+4036  futex(0x7fd5085799f8, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+4037  <... epoll_ctl resumed>)          = 0
+4038  openat(13, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  epoll_ctl(13, EPOLL_CTL_ADD, 12, {events=0, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4036  <... futex resumed>)              = 0
+4038  <... openat resumed>)             = 17
+4038  fstat(17,  <unfinished ...>
+4037  <... epoll_ctl resumed>)          = 0
+4036  openat(AT_FDCWD, "/run/systemd/userdb/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4038  close(13 <unfinished ...>
+4037  getrandom( <unfinished ...>
+4036  <... openat resumed>)             = 9
+4038  <... close resumed>)              = 0
+4037  <... getrandom resumed>"\xd8\x44\x8c\x42\x61\x52\x67\xca\x10\x22\x77\xeb\xc1\xf6\xfc\x2d", 16, GRND_INSECURE) = 16
+4038  openat(17, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4037  futex(0x7fd5085790c0, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=60, ...}) = 0
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  <... futex resumed>)              = 0
+4036  getdents64(9,  <unfinished ...>
+4038  close(17 <unfinished ...>
+4037  getdents64(11,  <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  <... getdents64 resumed>0x5572426500f0 /* 0 entries */, 32768) = 0
+4036  <... getdents64 resumed>0x5572426500f0 /* 3 entries */, 32768) = 96
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4037  close(11 <unfinished ...>
+4038  <... openat resumed>)             = 13
+4036  socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0 <unfinished ...>
+4037  <... close resumed>)              = 0
+4038  openat(13, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  <... socket resumed>)             = 10
+4038  <... openat resumed>)             = 17
+4038  fstat(17,  <unfinished ...>
+4037  <... openat resumed>)             = 11
+4036  connect(10, {sa_family=AF_UNIX, sun_path="/run/systemd/userdb/io.systemd.DynamicUser"}, 45 <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4037  openat(11, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  close(13 <unfinished ...>
+4036  <... connect resumed>)            = 0
+4038  <... close resumed>)              = 0
+4037  <... openat resumed>)             = 15
+4036  getpid( <unfinished ...>
+4038  openat(17, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  fstat(15,  <unfinished ...>
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  <... getpid resumed>)             = 4036
+4038  close(17 <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+4038  <... close resumed>)              = 0
+4036  epoll_create1(EPOLL_CLOEXEC <unfinished ...>
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4037  close(11 <unfinished ...>
+4036  <... epoll_create1 resumed>)      = 11
+4038  <... openat resumed>)             = 13
+4037  <... close resumed>)              = 0
+4036  timerfd_create(CLOCK_MONOTONIC, TFD_CLOEXEC|TFD_NONBLOCK <unfinished ...>
+4038  openat(13, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(15, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... openat resumed>)             = 17
+4036  <... timerfd_create resumed>)     = 12
+4038  fstat(17,  <unfinished ...>
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  epoll_ctl(11, EPOLL_CTL_ADD, 12, {events=EPOLLIN, data={u32=1113723744, u64=93949228356448}} <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4037  close(15 <unfinished ...>
+4036  <... epoll_ctl resumed>)          = 0
+4038  close(13)                         = 0
+4037  <... close resumed>)              = 0
+4036  epoll_ctl(11, EPOLL_CTL_ADD, 10, {events=0, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4038  openat(17, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  <... epoll_ctl resumed>)          = 0
+4038  <... openat resumed>)             = 13
+4038  fstat(13,  <unfinished ...>
+4037  <... openat resumed>)             = 11
+4036  getrandom( <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=131, ...}) = 0
+4037  openat(11, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... getrandom resumed>"\x16\xc4\xd8\x89\x74\x90\x65\xf2\xa4\x4e\xae\xa2\x9b\x1c\x01\xfb", 16, GRND_INSECURE) = 16
+4038  close(17 <unfinished ...>
+4037  <... openat resumed>)             = 15
+4036  futex(0x7fd5085790c0, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  fstat(15,  <unfinished ...>
+4036  <... futex resumed>)              = 0
+4038  openat(13, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4036  getdents64(9,  <unfinished ...>
+4038  <... openat resumed>)             = 17
+4037  close(11 <unfinished ...>
+4038  fstat(17,  <unfinished ...>
+4036  <... getdents64 resumed>0x5572426500f0 /* 0 entries */, 32768) = 0
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4037  <... close resumed>)              = 0
+4036  close(9 <unfinished ...>
+4038  close(13)                         = 0
+4037  openat(15, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  openat(17, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  close(17 <unfinished ...>
+4037  close(15 <unfinished ...>
+4036  <... openat resumed>)             = 9
+4038  <... close resumed>)              = 0
+4037  <... close resumed>)              = 0
+4036  openat(9, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  <... openat resumed>)             = 13
+4038  <... openat resumed>)             = 13
+4037  <... openat resumed>)             = 11
+4036  fstat(13,  <unfinished ...>
+4038  openat(13, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(11, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+4038  <... openat resumed>)             = 17
+4037  <... openat resumed>)             = 15
+4038  fstat(17,  <unfinished ...>
+4036  close(9 <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4037  fstat(15,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  close(13 <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4036  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  close(11 <unfinished ...>
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  openat(17, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  close(13 <unfinished ...>
+4038  <... openat resumed>)             = 13
+4038  fstat(13,  <unfinished ...>
+4037  openat(15, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... fstat resumed>{st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  close(17 <unfinished ...>
+4037  close(15 <unfinished ...>
+4036  <... openat resumed>)             = 9
+4038  <... close resumed>)              = 0
+4037  <... close resumed>)              = 0
+4036  openat(9, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  <... openat resumed>)             = 13
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  <... openat resumed>)             = 11
+4036  fstat(13,  <unfinished ...>
+4038  close(13 <unfinished ...>
+4037  openat(11, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... close resumed>)              = 0
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4037  <... openat resumed>)             = 15
+4036  close(9 <unfinished ...>
+4038  <... openat resumed>)             = 13
+4037  fstat(15,  <unfinished ...>
+4038  openat(13, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... close resumed>)              = 0
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4038  <... openat resumed>)             = 17
+4036  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  fstat(17,  <unfinished ...>
+4037  close(11 <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  close(13 <unfinished ...>
+4037  <... close resumed>)              = 0
+4038  <... close resumed>)              = 0
+4036  close(13 <unfinished ...>
+4038  openat(17, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(15, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  <... openat resumed>)             = 11
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  close(17 <unfinished ...>
+4037  fstat(11,  <unfinished ...>
+4038  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 9
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=131, ...}) = 0
+4038  <... openat resumed>)             = 13
+4036  openat(9, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  openat(13, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  close(15 <unfinished ...>
+4038  <... openat resumed>)             = 17
+4037  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 13
+4038  fstat(17,  <unfinished ...>
+4037  openat(11, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4036  fstat(13,  <unfinished ...>
+4037  <... openat resumed>)             = 15
+4038  close(13)                         = 0
+4037  fstat(15,  <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4038  openat(17, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4036  close(9 <unfinished ...>
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  close(11 <unfinished ...>
+4038  close(17 <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... close resumed>)              = 0
+4037  <... close resumed>)              = 0
+4036  openat(13, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4037  openat(15, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  <... openat resumed>)             = 13
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  openat(13, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  close(15 <unfinished ...>
+4036  close(13 <unfinished ...>
+4038  <... openat resumed>)             = 17
+4038  fstat(17,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... close resumed>)              = 0
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  close(13 <unfinished ...>
+4037  <... openat resumed>)             = 11
+4038  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 9
+4037  openat(11, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  openat(17, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... openat resumed>)             = 15
+4036  openat(9, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  fstat(15,  <unfinished ...>
+4038  close(17 <unfinished ...>
+4036  <... openat resumed>)             = 13
+4038  <... close resumed>)              = 0
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  fstat(13,  <unfinished ...>
+4038  <... openat resumed>)             = 13
+4037  close(11 <unfinished ...>
+4038  openat(13, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4038  <... openat resumed>)             = 17
+4037  <... close resumed>)              = 0
+4038  fstat(17,  <unfinished ...>
+4036  close(9 <unfinished ...>
+4037  openat(15, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4036  <... close resumed>)              = 0
+4037  <... openat resumed>)             = 11
+4038  close(13)                         = 0
+4037  fstat(11,  <unfinished ...>
+4036  openat(13, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  openat(17, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+4038  <... openat resumed>)             = 13
+4036  <... openat resumed>)             = 9
+4037  close(15 <unfinished ...>
+4038  fstat(13,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  fstat(9,  <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=131, ...}) = 0
+4037  openat(11, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  close(17 <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=131, ...}) = 0
+4038  <... close resumed>)              = 0
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  openat(13, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  close(11 <unfinished ...>
+4036  close(13 <unfinished ...>
+4038  <... openat resumed>)             = 17
+4037  <... close resumed>)              = 0
+4036  <... close resumed>)              = 0
+4038  fstat(17,  <unfinished ...>
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4036  openat(9, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  close(13 <unfinished ...>
+4037  <... openat resumed>)             = 11
+4038  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 13
+4037  openat(11, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  openat(17, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+4037  <... openat resumed>)             = 15
+4036  fstat(13,  <unfinished ...>
+4038  close(17)                         = 0
+4037  fstat(15,  <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4038  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+4038  <... openat resumed>)             = 13
+4036  close(9 <unfinished ...>
+4037  close(11 <unfinished ...>
+4038  openat(13, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... close resumed>)              = 0
+4038  <... openat resumed>)             = 17
+4037  openat(15, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  fstat(17,  <unfinished ...>
+4036  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  close(13 <unfinished ...>
+4037  close(15 <unfinished ...>
+4038  <... close resumed>)              = 0
+4036  close(13 <unfinished ...>
+4037  <... close resumed>)              = 0
+4038  openat(17, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... close resumed>)              = 0
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  <... openat resumed>)             = 13
+4037  <... openat resumed>)             = 11
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  fstat(13,  <unfinished ...>
+4037  openat(11, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... fstat resumed>{st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+4036  <... openat resumed>)             = 9
+4037  <... openat resumed>)             = 15
+4038  close(17 <unfinished ...>
+4036  openat(9, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  fstat(15,  <unfinished ...>
+4036  <... openat resumed>)             = 13
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4038  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+4037  close(11 <unfinished ...>
+4036  fstat(13,  <unfinished ...>
+4038  close(13)                         = 0
+4037  <... close resumed>)              = 0
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4038  epoll_ctl(15, EPOLL_CTL_MOD, 14, {events=EPOLLIN|EPOLLOUT, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4037  openat(15, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... epoll_ctl resumed>)          = 0
+4036  close(9 <unfinished ...>
+4038  openat(AT_FDCWD, "/proc/sys/kernel/random/boot_id", O_RDONLY|O_NOCTTY|O_CLOEXEC <unfinished ...>
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  <... close resumed>)              = 0
+4038  <... openat resumed>)             = 13
+4037  close(15 <unfinished ...>
+4036  openat(13, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  read(13,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 9
+4038  <... read resumed>"b1aaed4d-b193-4f87-ac00-c56d371e"..., 38) = 37
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4038  read(13,  <unfinished ...>
+4037  <... openat resumed>)             = 11
+4036  <... fstat resumed>{st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+4038  <... read resumed>"", 1)          = 0
+4037  openat(11, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  close(13 <unfinished ...>
+4038  close(13)                         = 0
+4037  <... openat resumed>)             = 15
+4036  <... close resumed>)              = 0
+4038  timerfd_settime(16, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=1485, tv_nsec=268493000}},  <unfinished ...>
+4037  fstat(15,  <unfinished ...>
+4036  openat(9, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... timerfd_settime resumed>NULL) = 0
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4038  epoll_wait(15,  <unfinished ...>
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  close(11 <unfinished ...>
+4038  <... epoll_wait resumed>[{events=EPOLLOUT, data={u32=1113894256, u64=93949228526960}}], 8, 0) = 1
+4036  close(9 <unfinished ...>
+4038  sendto(14, "{\"method\":\"io.systemd.UserDataba"..., 133, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0 <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... close resumed>)              = 0
+4038  <... sendto resumed>)             = 133
+4038  epoll_ctl(15, EPOLL_CTL_MOD, 14, {events=EPOLLIN, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4037  openat(15, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  <... epoll_ctl resumed>)          = 0
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  epoll_wait(15,  <unfinished ...>
+4037  close(15 <unfinished ...>
+4036  <... openat resumed>)             = 9
+4038  <... epoll_wait resumed>[{events=EPOLLIN, data={u32=1113894256, u64=93949228526960}}], 8, 0) = 1
+4038  mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  openat(9, "etc", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507e15000
+4038  recvfrom(14,  <unfinished ...>
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  <... openat resumed>)             = 13
+4038  <... recvfrom resumed>"{\"error\":\"io.systemd.UserDatabas"..., 135152, MSG_DONTWAIT, NULL, NULL) = 66
+4037  <... openat resumed>)             = 11
+4036  fstat(13,  <unfinished ...>
+4038  epoll_ctl(15, EPOLL_CTL_MOD, 14, {events=0, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4037  openat(11, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=8192, ...}) = 0
+4038  <... epoll_ctl resumed>)          = 0
+4037  <... openat resumed>)             = 15
+4036  close(9 <unfinished ...>
+4038  epoll_wait(15,  <unfinished ...>
+4037  fstat(15,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  <... epoll_wait resumed>[], 8, 0) = 0
+4038  epoll_wait(15,  <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4036  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... epoll_wait resumed>[], 8, 0) = 0
+4037  close(11 <unfinished ...>
+4038  epoll_ctl(15, EPOLL_CTL_DEL, 14, NULL <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  <... epoll_ctl resumed>)          = 0
+4038  close(14 <unfinished ...>
+4037  openat(15, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  close(13 <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  <... openat resumed>)             = 11
+4036  <... close resumed>)              = 0
+4038  munmap(0x7fd507e15000, 135168)    = 0
+4037  fstat(11,  <unfinished ...>
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  rt_sigprocmask(SIG_SETMASK, [HUP INT QUIT USR1 USR2 ALRM TERM CHLD WINCH IO],  <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=131, ...}) = 0
+4036  <... openat resumed>)             = 9
+4038  <... rt_sigprocmask resumed>NULL, 8) = 0
+4038  close(15 <unfinished ...>
+4037  close(15 <unfinished ...>
+4036  openat(9, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 13
+4038  close(16)                         = 0
+4037  openat(11, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  fstat(13,  <unfinished ...>
+4038  setgroups(1, [993] <unfinished ...>
+4037  <... openat resumed>)             = 15
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4038  <... setgroups resumed>)          = 0
+4037  fstat(15,  <unfinished ...>
+4036  close(9 <unfinished ...>
+4038  setuid(996 <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4036  <... close resumed>)              = 0
+4038  <... setuid resumed>)             = 0
+4037  close(11 <unfinished ...>
+4038  prctl(PR_SET_DUMPABLE, SUID_DUMP_USER <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... prctl resumed>)              = 0
+4037  openat(15, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  close(13 <unfinished ...>
+4038  <... rt_sigprocmask resumed>NULL, 8) = 0
+4037  close(15 <unfinished ...>
+4038  epoll_create(512 <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... close resumed>)              = 0
+4038  <... epoll_create resumed>)       = 13
+4037  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  eventfd2(0, 0 <unfinished ...>
+4037  <... openat resumed>)             = 11
+4036  <... openat resumed>)             = 9
+4037  openat(11, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... eventfd2 resumed>)           = 14
+4036  openat(9, "run", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 14, {events=EPOLLIN|EPOLLET, data={u32=1107576224, u64=93949222208928}} <unfinished ...>
+4037  <... openat resumed>)             = 15
+4036  <... openat resumed>)             = 13
+4038  <... epoll_ctl resumed>)          = 0
+4037  fstat(15,  <unfinished ...>
+4036  fstat(13,  <unfinished ...>
+4038  eventfd2(0, 0 <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=800, ...}) = 0
+4038  <... eventfd2 resumed>)           = 15
+4037  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4038  ioctl(15, FIONBIO, [1] <unfinished ...>
+4036  close(9 <unfinished ...>
+4037  close(11 <unfinished ...>
+4038  <... ioctl resumed>)              = 0
+4037  <... close resumed>)              = 0
+4036  <... close resumed>)              = 0
+4038  io_setup(32,  <unfinished ...>
+4036  openat(13, "host", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(15, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... io_setup resumed>[0x7fd508747000]) = 0
+4037  <... openat resumed>)             = 11
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  fstat(11,  <unfinished ...>
+4036  close(13 <unfinished ...>
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 15, {events=EPOLLIN|EPOLLET, data={u32=1107576576, u64=93949222209280}} <unfinished ...>
+4037  <... fstat resumed>{st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+4036  <... close resumed>)              = 0
+4038  <... epoll_ctl resumed>)          = 0
+4038  socketpair(AF_UNIX, SOCK_STREAM, 0,  <unfinished ...>
+4037  close(15 <unfinished ...>
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  <... socketpair resumed>[16, 17]) = 0
+4037  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 9
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 16, {events=EPOLLIN|EPOLLRDHUP|EPOLLET, data={u32=1107576576, u64=93949222209280}}) = 0
+4037  openat(11, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4036  openat(9, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  close(17)                         = 0
+4037  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4036  <... openat resumed>)             = 13
+4038  epoll_wait(13,  <unfinished ...>
+4036  fstat(13,  <unfinished ...>
+4037  close(11 <unfinished ...>
+4038  <... epoll_wait resumed>[{events=EPOLLIN|EPOLLHUP|EPOLLRDHUP, data={u32=1107576576, u64=93949222209280}}], 1, 5000) = 1
+4037  <... close resumed>)              = 0
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4038  close(16 <unfinished ...>
+4036  close(9 <unfinished ...>
+4037  epoll_ctl(13, EPOLL_CTL_MOD, 12, {events=EPOLLIN|EPOLLOUT, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  <... epoll_ctl resumed>)          = 0
+4036  <... close resumed>)              = 0
+4038  mmap(NULL, 249856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4036  openat(13, "local", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  openat(AT_FDCWD, "/proc/sys/kernel/random/boot_id", O_RDONLY|O_NOCTTY|O_CLOEXEC <unfinished ...>
+4038  <... mmap resumed>)               = 0x7fd507a2c000
+4037  <... openat resumed>)             = 11
+4036  <... openat resumed>)             = 9
+4038  brk(0x557242689000 <unfinished ...>
+4036  fstat(9,  <unfinished ...>
+4037  read(11,  <unfinished ...>
+4038  <... brk resumed>)                = 0x557242689000
+4037  <... read resumed>"b1aaed4d-b193-4f87-ac00-c56d371e"..., 38) = 37
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=131, ...}) = 0
+4037  read(11,  <unfinished ...>
+4036  close(13 <unfinished ...>
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 6, {events=EPOLLIN|EPOLLEXCLUSIVE, data={u32=128106512, u64=140552932868112}} <unfinished ...>
+4037  <... read resumed>"", 1)          = 0
+4036  <... close resumed>)              = 0
+4038  <... epoll_ctl resumed>)          = 0
+4037  close(11 <unfinished ...>
+4036  openat(9, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 7, {events=EPOLLIN|EPOLLEXCLUSIVE, data={u32=128106752, u64=140552932868352}} <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... openat resumed>)             = 13
+4038  <... epoll_ctl resumed>)          = 0
+4038  close(8 <unfinished ...>
+4037  timerfd_settime(14, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=1485, tv_nsec=268493000}},  <unfinished ...>
+4036  fstat(13,  <unfinished ...>
+4038  <... close resumed>)              = 0
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=6, ...}) = 0
+4038  close(10 <unfinished ...>
+4037  <... timerfd_settime resumed>NULL) = 0
+4036  close(9 <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  epoll_wait(13,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4038  close(11 <unfinished ...>
+4037  <... epoll_wait resumed>[{events=EPOLLOUT, data={u32=1113894256, u64=93949228526960}}], 8, 0) = 1
+4036  openat(13, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4038  <... close resumed>)              = 0
+4037  sendto(12, "{\"method\":\"io.systemd.UserDataba"..., 133, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0 <unfinished ...>
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 12, {events=EPOLLIN|EPOLLRDHUP, data={u32=128106992, u64=140552932868592}} <unfinished ...>
+4036  close(13 <unfinished ...>
+4037  <... sendto resumed>)             = 133
+4036  <... close resumed>)              = 0
+4038  <... epoll_ctl resumed>)          = 0
+4037  epoll_ctl(13, EPOLL_CTL_MOD, 12, {events=EPOLLIN, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4036  openat(AT_FDCWD, "/", O_RDONLY|O_CLOEXEC|O_PATH|O_DIRECTORY <unfinished ...>
+4038  epoll_wait(13,  <unfinished ...>
+4037  <... epoll_ctl resumed>)          = 0
+4036  <... openat resumed>)             = 9
+4037  epoll_wait(13,  <unfinished ...>
+4036  openat(9, "usr", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  <... epoll_wait resumed>[{events=EPOLLIN, data={u32=1113894256, u64=93949228526960}}], 8, 0) = 1
+4036  <... openat resumed>)             = 13
+4037  mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4036  fstat(13,  <unfinished ...>
+4037  <... mmap resumed>)               = 0x7fd507e15000
+4036  <... fstat resumed>{st_mode=S_IFDIR|0755, st_size=155, ...}) = 0
+4037  recvfrom(12,  <unfinished ...>
+4036  close(9)                          = 0
+4037  <... recvfrom resumed>"{\"error\":\"io.systemd.UserDatabas"..., 135152, MSG_DONTWAIT, NULL, NULL) = 66
+4036  openat(13, "lib", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  epoll_ctl(13, EPOLL_CTL_MOD, 12, {events=0, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4036  <... openat resumed>)             = 9
+4037  <... epoll_ctl resumed>)          = 0
+4036  fstat(9,  <unfinished ...>
+4037  epoll_wait(13,  <unfinished ...>
+4036  <... fstat resumed>{st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+4037  <... epoll_wait resumed>[], 8, 0) = 0
+4036  close(13 <unfinished ...>
+4037  epoll_wait(13,  <unfinished ...>
+4036  <... close resumed>)              = 0
+4037  <... epoll_wait resumed>[], 8, 0) = 0
+4036  openat(9, "userdb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH <unfinished ...>
+4037  epoll_ctl(13, EPOLL_CTL_DEL, 12, NULL <unfinished ...>
+4036  <... openat resumed>)             = -1 ENOENT (No such file or directory)
+4037  <... epoll_ctl resumed>)          = 0
+4036  close(9 <unfinished ...>
+4037  close(12 <unfinished ...>
+4036  <... close resumed>)              = 0
+4036  epoll_ctl(11, EPOLL_CTL_MOD, 10, {events=EPOLLIN|EPOLLOUT, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4037  <... close resumed>)              = 0
+4037  munmap(0x7fd507e15000, 135168 <unfinished ...>
+4036  <... epoll_ctl resumed>)          = 0
+4037  <... munmap resumed>)             = 0
+4036  openat(AT_FDCWD, "/proc/sys/kernel/random/boot_id", O_RDONLY|O_NOCTTY|O_CLOEXEC <unfinished ...>
+4037  rt_sigprocmask(SIG_SETMASK, [HUP INT QUIT USR1 USR2 ALRM TERM CHLD WINCH IO], NULL, 8) = 0
+4036  <... openat resumed>)             = 9
+4037  close(13 <unfinished ...>
+4036  read(9,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4036  <... read resumed>"b1aaed4d-b193-4f87-ac00-c56d371e"..., 38) = 37
+4037  close(14 <unfinished ...>
+4036  read(9,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4037  setgroups(1, [993] <unfinished ...>
+4036  <... read resumed>"", 1)          = 0
+4037  <... setgroups resumed>)          = 0
+4036  close(9 <unfinished ...>
+4037  setuid(996 <unfinished ...>
+4036  <... close resumed>)              = 0
+4037  <... setuid resumed>)             = 0
+4036  timerfd_settime(12, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=1485, tv_nsec=268493000}},  <unfinished ...>
+4037  prctl(PR_SET_DUMPABLE, SUID_DUMP_USER <unfinished ...>
+4036  <... timerfd_settime resumed>NULL) = 0
+4037  <... prctl resumed>)              = 0
+4036  epoll_wait(11,  <unfinished ...>
+4037  rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+4036  <... epoll_wait resumed>[{events=EPOLLOUT, data={u32=1113894256, u64=93949228526960}}], 8, 0) = 1
+4037  <... rt_sigprocmask resumed>NULL, 8) = 0
+4036  sendto(10, "{\"method\":\"io.systemd.UserDataba"..., 133, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0 <unfinished ...>
+4037  epoll_create(512 <unfinished ...>
+4036  <... sendto resumed>)             = 133
+4037  <... epoll_create resumed>)       = 11
+4036  epoll_ctl(11, EPOLL_CTL_MOD, 10, {events=EPOLLIN, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4037  eventfd2(0, 0)                    = 12
+4036  <... epoll_ctl resumed>)          = 0
+4037  epoll_ctl(11, EPOLL_CTL_ADD, 12, {events=EPOLLIN|EPOLLET, data={u32=1107576224, u64=93949222208928}} <unfinished ...>
+4036  epoll_wait(11,  <unfinished ...>
+4037  <... epoll_ctl resumed>)          = 0
+4036  <... epoll_wait resumed>[{events=EPOLLIN, data={u32=1113894256, u64=93949228526960}}], 8, 0) = 1
+4037  eventfd2(0, 0)                    = 13
+4036  mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4037  ioctl(13, FIONBIO, [1] <unfinished ...>
+4036  <... mmap resumed>)               = 0x7fd507e15000
+4037  <... ioctl resumed>)              = 0
+4036  recvfrom(10,  <unfinished ...>
+4037  io_setup(32,  <unfinished ...>
+4036  <... recvfrom resumed>"{\"error\":\"io.systemd.UserDatabas"..., 135152, MSG_DONTWAIT, NULL, NULL) = 66
+4037  <... io_setup resumed>[0x7fd508747000]) = 0
+4036  epoll_ctl(11, EPOLL_CTL_MOD, 10, {events=0, data={u32=1113894256, u64=93949228526960}} <unfinished ...>
+4037  epoll_ctl(11, EPOLL_CTL_ADD, 13, {events=EPOLLIN|EPOLLET, data={u32=1107576576, u64=93949222209280}}) = 0
+4036  <... epoll_ctl resumed>)          = 0
+4037  socketpair(AF_UNIX, SOCK_STREAM, 0,  <unfinished ...>
+4036  epoll_wait(11,  <unfinished ...>
+4037  <... socketpair resumed>[14, 15]) = 0
+4037  epoll_ctl(11, EPOLL_CTL_ADD, 14, {events=EPOLLIN|EPOLLRDHUP|EPOLLET, data={u32=1107576576, u64=93949222209280}} <unfinished ...>
+4036  <... epoll_wait resumed>[], 8, 0) = 0
+4037  <... epoll_ctl resumed>)          = 0
+4037  close(15 <unfinished ...>
+4036  epoll_wait(11,  <unfinished ...>
+4037  <... close resumed>)              = 0
+4037  epoll_wait(11,  <unfinished ...>
+4036  <... epoll_wait resumed>[], 8, 0) = 0
+4037  <... epoll_wait resumed>[{events=EPOLLIN|EPOLLHUP|EPOLLRDHUP, data={u32=1107576576, u64=93949222209280}}], 1, 5000) = 1
+4037  close(14 <unfinished ...>
+4036  epoll_ctl(11, EPOLL_CTL_DEL, 10, NULL <unfinished ...>
+4037  <... close resumed>)              = 0
+4037  mmap(NULL, 249856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4036  <... epoll_ctl resumed>)          = 0
+4037  <... mmap resumed>)               = 0x7fd507a2c000
+4036  close(10 <unfinished ...>
+4037  brk(0x557242689000)               = 0x557242689000
+4036  <... close resumed>)              = 0
+4036  munmap(0x7fd507e15000, 135168 <unfinished ...>
+4037  epoll_ctl(11, EPOLL_CTL_ADD, 6, {events=EPOLLIN|EPOLLEXCLUSIVE, data={u32=128106512, u64=140552932868112}} <unfinished ...>
+4036  <... munmap resumed>)             = 0
+4037  <... epoll_ctl resumed>)          = 0
+4036  rt_sigprocmask(SIG_SETMASK, [HUP INT QUIT USR1 USR2 ALRM TERM CHLD WINCH IO],  <unfinished ...>
+4037  epoll_ctl(11, EPOLL_CTL_ADD, 7, {events=EPOLLIN|EPOLLEXCLUSIVE, data={u32=128106752, u64=140552932868352}} <unfinished ...>
+4036  <... rt_sigprocmask resumed>NULL, 8) = 0
+4037  <... epoll_ctl resumed>)          = 0
+4036  close(11 <unfinished ...>
+4037  close(8 <unfinished ...>
+4036  <... close resumed>)              = 0
+4037  <... close resumed>)              = 0
+4036  close(12 <unfinished ...>
+4037  close(9 <unfinished ...>
+4036  <... close resumed>)              = 0
+4037  <... close resumed>)              = 0
+4036  setgroups(1, [993] <unfinished ...>
+4037  epoll_ctl(11, EPOLL_CTL_ADD, 10, {events=EPOLLIN|EPOLLRDHUP, data={u32=128106992, u64=140552932868592}} <unfinished ...>
+4036  <... setgroups resumed>)          = 0
+4037  <... epoll_ctl resumed>)          = 0
+4037  epoll_wait(11,  <unfinished ...>
+4036  setuid(996 <unfinished ...>
+4037  <... epoll_wait resumed>[{events=EPOLLIN, data={u32=128106992, u64=140552932868592}}], 512, -1) = 1
+4036  <... setuid resumed>)             = 0
+4037  recvmsg(10,  <unfinished ...>
+4036  prctl(PR_SET_DUMPABLE, SUID_DUMP_USER <unfinished ...>
+4037  <... recvmsg resumed>{msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\306\17\0\0rU\0\0\2\0\0\0\0\0\0\0\v\0\0\0\277\305\22<", iov_len=32}], msg_iovlen=1, msg_control=[{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[8]}], msg_controllen=24, msg_flags=0}, 0) = 32
+4036  <... prctl resumed>)              = 0
+4037  recvmsg(10,  <unfinished ...>
+4036  rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+4037  <... recvmsg resumed>{msg_namelen=0}, 0) = -1 EAGAIN (Resource temporarily unavailable)
+4036  <... rt_sigprocmask resumed>NULL, 8) = 0
+4037  epoll_wait(11,  <unfinished ...>
+4036  epoll_create(512)                 = 9
+4036  eventfd2(0, 0)                    = 10
+4036  epoll_ctl(9, EPOLL_CTL_ADD, 10, {events=EPOLLIN|EPOLLET, data={u32=1107576224, u64=93949222208928}}) = 0
+4036  eventfd2(0, 0)                    = 11
+4036  ioctl(11, FIONBIO, [1])           = 0
+4036  io_setup(32, [0x7fd508747000])    = 0
+4036  epoll_ctl(9, EPOLL_CTL_ADD, 11, {events=EPOLLIN|EPOLLET, data={u32=1107576576, u64=93949222209280}}) = 0
+4036  socketpair(AF_UNIX, SOCK_STREAM, 0, [12, 13]) = 0
+4036  epoll_ctl(9, EPOLL_CTL_ADD, 12, {events=EPOLLIN|EPOLLRDHUP|EPOLLET, data={u32=1107576576, u64=93949222209280}}) = 0
+4036  close(13)                         = 0
+4036  epoll_wait(9, [{events=EPOLLIN|EPOLLHUP|EPOLLRDHUP, data={u32=1107576576, u64=93949222209280}}], 1, 5000) = 1
+4036  close(12)                         = 0
+4036  mmap(NULL, 249856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd507a2c000
+4036  brk(0x557242689000)               = 0x557242689000
+4036  epoll_ctl(9, EPOLL_CTL_ADD, 6, {events=EPOLLIN|EPOLLEXCLUSIVE, data={u32=128106512, u64=140552932868112}}) = 0
+4036  epoll_ctl(9, EPOLL_CTL_ADD, 7, {events=EPOLLIN|EPOLLEXCLUSIVE, data={u32=128106752, u64=140552932868352}}) = 0
+4036  close(3)                          = 0
+4036  epoll_ctl(9, EPOLL_CTL_ADD, 8, {events=EPOLLIN|EPOLLRDHUP, data={u32=128106992, u64=140552932868592}}) = 0
+4036  epoll_wait(9, [{events=EPOLLIN, data={u32=128106992, u64=140552932868592}}], 512, -1) = 1
+4036  recvmsg(8, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\305\17\0\0rU\0\0\1\0\0\0\0\0\0\0\t\0\0\0\277\305\22<", iov_len=32}], msg_iovlen=1, msg_control=[{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[3]}], msg_controllen=24, msg_flags=0}, 0) = 32
+4036  recvmsg(8, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\306\17\0\0rU\0\0\2\0\0\0\0\0\0\0\v\0\0\0\277\305\22<", iov_len=32}], msg_iovlen=1, msg_control=[{cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[12]}], msg_controllen=24, msg_flags=0}, 0) = 32
+4036  recvmsg(8, {msg_namelen=0}, 0)    = -1 EAGAIN (Resource temporarily unavailable)
+4036  epoll_wait(9,  <unfinished ...>
+4038  <... epoll_wait resumed>[{events=EPOLLIN, data={u32=128106752, u64=140552932868352}}], 512, -1) = 1
+4038  accept4(7, {sa_family=AF_INET6, sin6_port=htons(36866), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, [112 => 28], SOCK_NONBLOCK) = 8
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 8, {events=EPOLLIN|EPOLLRDHUP|EPOLLET, data={u32=128107232, u64=140552932868832}}) = 0
+4038  epoll_wait(13, [{events=EPOLLIN, data={u32=128107232, u64=140552932868832}}], 512, 60000) = 1
+4038  recvfrom(8, "GET / HTTP/1.1\r\nHost: localhost\r"..., 1024, 0, NULL, NULL) = 73
+4038  newfstatat(AT_FDCWD, "/usr/share/nginx/html/index.html", {st_mode=S_IFREG|0644, st_size=7620, ...}, 0) = 0
+4038  openat(AT_FDCWD, "/usr/share/nginx/html/index.html", O_RDONLY|O_NONBLOCK) = 10
+4038  fstat(10, {st_mode=S_IFREG|0644, st_size=7620, ...}) = 0
+4038  setsockopt(8, SOL_TCP, TCP_CORK, [1], 4) = 0
+4038  writev(8, [{iov_base="HTTP/1.1 200 OK\r\nServer: nginx/1"..., iov_len=240}], 1) = 240
+4038  sendfile(8, 10, [0] => [7620], 7620) = 7620
+4038  write(5, "::1 - - [14/Mar/2025:18:33:18 +0"..., 85) = 85
+4038  close(10)                         = 0
+4038  setsockopt(8, SOL_TCP, TCP_CORK, [0], 4) = 0
+4038  epoll_wait(13, [{events=EPOLLIN|EPOLLRDHUP, data={u32=128107232, u64=140552932868832}}], 512, 65000) = 1
+4038  recvfrom(8, "", 1024, 0, NULL, NULL) = 0
+4038  close(8)                          = 0
+4038  epoll_wait(13, [{events=EPOLLIN, data={u32=128106752, u64=140552932868352}}], 512, -1) = 1
+4038  accept4(7, {sa_family=AF_INET6, sin6_port=htons(45186), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, [112 => 28], SOCK_NONBLOCK) = 8
+4038  epoll_ctl(13, EPOLL_CTL_ADD, 8, {events=EPOLLIN|EPOLLRDHUP|EPOLLET, data={u32=128107233, u64=140552932868833}}) = 0
+4038  epoll_wait(13, [{events=EPOLLIN, data={u32=128107233, u64=140552932868833}}], 512, 60000) = 1
+4038  recvfrom(8, "GET / HTTP/1.1\r\nHost: localhost\r"..., 1024, 0, NULL, NULL) = 73
+4038  newfstatat(AT_FDCWD, "/usr/share/nginx/html/index.html", {st_mode=S_IFREG|0644, st_size=7620, ...}, 0) = 0
+4038  openat(AT_FDCWD, "/usr/share/nginx/html/index.html", O_RDONLY|O_NONBLOCK) = 10
+4038  fstat(10, {st_mode=S_IFREG|0644, st_size=7620, ...}) = 0
+4038  setsockopt(8, SOL_TCP, TCP_CORK, [1], 4) = 0
+4038  writev(8, [{iov_base="HTTP/1.1 200 OK\r\nServer: nginx/1"..., iov_len=240}], 1) = 240
+4038  sendfile(8, 10, [0] => [7620], 7620) = 7620
+4038  write(5, "::1 - - [14/Mar/2025:18:36:08 +0"..., 85) = 85
+4038  close(10)                         = 0
+4038  setsockopt(8, SOL_TCP, TCP_CORK, [0], 4) = 0
+4038  epoll_wait(13, [{events=EPOLLIN|EPOLLRDHUP, data={u32=128107233, u64=140552932868833}}], 512, 65000) = 1
+4038  recvfrom(8, "", 1024, 0, NULL, NULL) = 0
+4038  close(8)                          = 0
+4038  epoll_wait(13, 
