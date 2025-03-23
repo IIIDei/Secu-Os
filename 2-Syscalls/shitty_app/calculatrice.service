@@ -1,0 +1,10 @@
+[Unit]
+Description=Super serveur calculatrice
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/calc.py
+Restart=always
+User=calculatrice
+
+[Install]
+WantedBy=multi-user.target
