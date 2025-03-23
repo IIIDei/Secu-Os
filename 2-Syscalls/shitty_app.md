@@ -127,6 +127,7 @@ SystemCallFilter=~execve
 ---
 
 ## 📌 **Fichier joint**
+- `calc.py` : l’application vulnérable
 - `strace_calc_normal.txt` : tracing normal
 - `strace_calc_hack.txt` : tracing exploitation
 - `calculatrice.service` : service avec hardening
