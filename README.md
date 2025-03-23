@@ -1,4 +1,4 @@
-# Secu OS
+# Linux-Config
 
 ## Objectif du projet
 
