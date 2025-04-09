@@ -193,18 +193,5 @@ sudo journalctl -t apparmor
 ```
 /etc/ssh/sshd_config.d/custom.conf
 /etc/apparmor.d/bin.ls
-/home/lucas/.ssh/authorized_keys
+/home/dei/.ssh/authorized_keys
 ```
-
----
-
-## ✅ Résultats finaux
-
-| Élément                          | Statut |
-|----------------------------------|--------|
-| Accès SSH restreint              | ✅    |
-| Port custom 7372 actif           | ✅    |
-| AppArmor actif (39 profils)      | ✅    |
-| Apache fonctionnel               | ✅    |
-| Profil `ls` en mode enforce      | ✅    |
-| Recommandations CIS appliquées   | ✅    |
